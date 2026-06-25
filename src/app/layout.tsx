@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import FloatingContact from "@/components/FloatingContact";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +17,10 @@ export const metadata: Metadata = {
   title: "Bechnologies - Better Technologies For A Better Future",
   description:
     "Công ty TNHH Công Nghệ Bechnologies Việt Nam - Cung cấp thiết bị, phần mềm và phát triển giải pháp trong lĩnh vực cơ khí, tự động hóa công nghiệp, số hóa doanh nghiệp.",
+  icons: {
+    icon: "/images/logos/ben-logo-mini.png",
+    apple: "/images/logos/ben-logo-mini.png",
+  },
 };
 
 export default function RootLayout({
@@ -27,8 +32,12 @@ export default function RootLayout({
     <html
       lang="vi"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col" suppressHydrationWarning>
+        {children}
+        <FloatingContact />
+      </body>
     </html>
   );
 }

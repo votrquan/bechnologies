@@ -78,10 +78,10 @@ export default function About() {
     <section id="about" className="py-20 lg:py-32 bg-white" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center mb-16">
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Giới thiệu công ty
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
             Về chúng tôi
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -92,12 +92,12 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           <AnimatedSection>
-            <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-[#f0fdfa] to-white border border-[#d4f5ef] hover:shadow-xl transition-shadow duration-300">
+            <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-brand-cyan-soft to-white border border-brand-cyan-soft hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#0d7377] to-[#14505c] rounded-xl flex items-center justify-center">
+                <div className="w-14 h-14 bg-gradient-to-br from-brand-teal-mid to-brand-teal rounded-xl flex items-center justify-center">
                   <Eye className="w-7 h-7 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-[#14505c]">Tầm nhìn</h3>
+                <h3 className="text-2xl font-bold text-brand-teal">Tầm nhìn</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
                 Trở thành doanh nghiệp tiên phong trong việc kiến tạo và ứng
@@ -110,12 +110,12 @@ export default function About() {
           </AnimatedSection>
 
           <AnimatedSection>
-            <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-[#f0fdfa] to-white border border-[#d4f5ef] hover:shadow-xl transition-shadow duration-300">
+            <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-brand-cyan-soft to-white border border-brand-cyan-soft hover:shadow-xl transition-shadow duration-300">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-gradient-to-br from-[#0d7377] to-[#14505c] rounded-xl flex items-center justify-center">
+                <div className="w-14 h-14 bg-gradient-to-br from-brand-teal-mid to-brand-teal rounded-xl flex items-center justify-center">
                   <Rocket className="w-7 h-7 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-[#14505c]">Sứ mệnh</h3>
+                <h3 className="text-2xl font-bold text-brand-teal">Sứ mệnh</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
                 Bechnologies cam kết mang đến các giải pháp công nghệ tối ưu
@@ -127,7 +127,7 @@ export default function About() {
         </div>
 
         <AnimatedSection className="mb-8">
-          <h3 className="text-2xl font-bold text-[#14505c] text-center mb-12">
+          <h3 className="text-2xl font-bold text-brand-teal text-center mb-12">
             Lĩnh vực hoạt động
           </h3>
         </AnimatedSection>
@@ -139,12 +139,12 @@ export default function About() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.2 + i * 0.1, duration: 0.5 }}
-              className="group p-6 rounded-2xl bg-white border border-gray-100 hover:border-[#0d7377]/30 hover:shadow-xl hover:shadow-[#0d7377]/5 transition-all duration-300"
+              className="group p-6 rounded-2xl bg-white border border-gray-100 hover:border-brand-teal-mid/30 hover:shadow-xl hover:shadow-brand-teal-mid/5 transition-all duration-300"
             >
-              <div className="w-14 h-14 bg-[#d4f5ef] rounded-xl flex items-center justify-center mb-5 group-hover:bg-[#0d7377] transition-colors duration-300">
-                <area.icon className="w-7 h-7 text-[#0d7377] group-hover:text-white transition-colors duration-300" />
+              <div className="w-14 h-14 bg-brand-cyan-soft rounded-xl flex items-center justify-center mb-5 group-hover:bg-brand-teal-mid transition-colors duration-300">
+                <area.icon className="w-7 h-7 text-brand-teal-mid group-hover:text-white transition-colors duration-300" />
               </div>
-              <h4 className="text-lg font-bold text-[#14505c] mb-4">
+              <h4 className="text-lg font-bold text-brand-teal mb-4">
                 {area.title}
               </h4>
               <ul className="space-y-2">
@@ -153,7 +153,7 @@ export default function About() {
                     key={item}
                     className="flex items-start gap-2 text-sm text-gray-600"
                   >
-                    <span className="w-1.5 h-1.5 bg-[#32e0c4] rounded-full mt-1.5 shrink-0" />
+                    <span className="w-1.5 h-1.5 bg-brand-cyan rounded-full mt-1.5 shrink-0" />
                     {item}
                   </li>
                 ))}

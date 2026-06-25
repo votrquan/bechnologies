@@ -2,91 +2,9 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import {
-  Cog,
-  Bot,
-  Building,
-  BrainCircuit,
-  BatteryCharging,
-  Shield,
-} from "lucide-react";
-
-const solutions = [
-  {
-    icon: Cog,
-    number: "01",
-    title: "Giải pháp cơ khí chế tạo & máy móc thiết bị",
-    items: [
-      "Thiết kế, chế tạo máy tự động/bán tự động theo yêu cầu",
-      "Thiết kế & gia công jig, fixture, checking gauge",
-      "Nâng cấp, cải tiến máy móc hiện hữu",
-    ],
-    color: "from-blue-500 to-blue-700",
-  },
-  {
-    icon: Bot,
-    number: "02",
-    title: "Giải pháp tự động hoá công nghiệp",
-    items: [
-      "Tự động hoá sản xuất (assembly line, conveyor,...)",
-      "Thiết kế mới, tích hợp hệ thống PLC, HMI, SCADA",
-      "Hệ thống AGV/AMR vận chuyển nội bộ",
-      "Ứng dụng Robot công nghiệp",
-      "Hệ thống vision inspection kiểm tra chất lượng",
-    ],
-    color: "from-teal-500 to-teal-700",
-  },
-  {
-    icon: Building,
-    number: "03",
-    title: "Giải pháp Số hoá nhà máy/doanh nghiệp",
-    items: [
-      "Kết nối dữ liệu và IoT công nghiệp",
-      "Thiết kế, triển khai hệ thống Quản lý sản xuất MES",
-      "Triển khai hệ thống ERP cho doanh nghiệp",
-      "Phân tích dữ liệu và báo cáo thông minh BI",
-      "Số hoá quy trình vận hành & bảo trì (CMMS)",
-    ],
-    color: "from-purple-500 to-purple-700",
-  },
-  {
-    icon: BrainCircuit,
-    number: "04",
-    title: "Giải pháp AI & phân tích dữ liệu",
-    items: [
-      "AI Vision: kiểm tra lỗi sản phẩm, nhận diện hình ảnh",
-      "Phân tích dữ liệu và báo cáo",
-      "Ứng dụng AI: Dự đoán bảo trì, tối ưu kế hoạch sản xuất",
-      "Phân tích hành vi vận hành, tiết ưu nhân sự",
-    ],
-    color: "from-orange-500 to-orange-700",
-  },
-  {
-    icon: BatteryCharging,
-    number: "05",
-    title: "Giải pháp năng lượng & tiết kiệm",
-    items: [
-      "Hệ thống điện mặt trời (solar rooftop, hybrid)",
-      "Giải pháp giám sát tiêu thụ năng lượng (EMS)",
-      "Tối ưu hóa hệ thống điện, khí nén, HVAC",
-      "Tiết kiệm biến tần (inverter) tiết kiệm điện",
-      "Giải pháp năng lượng xanh & giảm phát thải CO₂",
-    ],
-    color: "from-green-500 to-green-700",
-  },
-  {
-    icon: Shield,
-    number: "06",
-    title: "Giải pháp hệ thống phụ trợ",
-    items: [
-      "Hệ thống khí nén (compressed air system)",
-      "Hệ thống born – hoá chất – xử lý nước",
-      "Hệ thống bảng, bảng tải, logistics nội bộ",
-      "Hệ thống an toàn máy (machine safety)",
-    ],
-    color: "from-red-500 to-red-700",
-  },
-];
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { featuredSolutions } from "@/lib/solutions";
 
 export default function Solutions() {
   const ref = useRef(null);
@@ -101,55 +19,77 @@ export default function Solutions() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Giải pháp
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
-            Giải pháp toàn diện
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
+            Giải pháp của Bechnologies
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Chúng tôi cung cấp 6 nhóm giải pháp chính phục vụ mọi nhu cầu
-            chuyển đổi số và tự động hóa của doanh nghiệp
+            Khám phá các giải pháp công nghệ được triển khai thực tế — từ tiết
+            kiệm năng lượng, điện mặt trời, SCADA đến Camera AI phân tích công
+            thái học.
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {solutions.map((solution, i) => (
+          {featuredSolutions.map((solution, i) => (
             <motion.div
-              key={solution.title}
+              key={solution.slug}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.1 + i * 0.1, duration: 0.5 }}
-              className="group relative p-6 bg-white rounded-2xl border border-gray-100 hover:border-transparent hover:shadow-2xl hover:shadow-gray-200/60 transition-all duration-500"
             >
-              <div className="absolute top-4 right-4 text-4xl font-bold text-gray-100 group-hover:text-[#d4f5ef] transition-colors">
-                {solution.number}
-              </div>
-
-              <div
-                className={`w-14 h-14 bg-gradient-to-br ${solution.color} rounded-xl flex items-center justify-center mb-5 shadow-lg`}
+              <Link
+                href={solution.href}
+                className="group block h-full p-6 bg-white rounded-2xl border border-gray-100 hover:border-transparent hover:shadow-2xl hover:shadow-gray-200/60 transition-all duration-500"
               >
-                <solution.icon className="w-7 h-7 text-white" />
-              </div>
+                <div
+                  className={`w-14 h-14 bg-gradient-to-br ${solution.color} rounded-xl flex items-center justify-center mb-5 shadow-lg`}
+                >
+                  <solution.icon className="w-7 h-7 text-white" />
+                </div>
 
-              <h3 className="text-lg font-bold text-[#14505c] mb-4 pr-10 leading-snug">
-                {solution.title}
-              </h3>
+                {solution.tag && (
+                  <span className="text-xs font-semibold text-brand-navy-mid uppercase tracking-wide">
+                    {solution.tag}
+                  </span>
+                )}
 
-              <ul className="space-y-2.5">
-                {solution.items.map((item) => (
-                  <li
-                    key={item}
-                    className="flex items-start gap-2.5 text-sm text-gray-600"
-                  >
-                    <span className="w-1.5 h-1.5 bg-[#32e0c4] rounded-full mt-1.5 shrink-0" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+                <h3 className="text-lg font-bold text-brand-teal mt-2 mb-3 leading-snug group-hover:text-brand-navy transition-colors">
+                  {solution.shortTitle}
+                </h3>
+
+                <p className="text-sm text-gray-600 mb-5 leading-relaxed">
+                  {solution.description}
+                </p>
+
+                <span className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy group-hover:text-brand-navy-mid transition-colors">
+                  Xem chi tiết
+                  <ArrowRight
+                    size={16}
+                    className="group-hover:translate-x-1 transition-transform"
+                  />
+                </span>
+              </Link>
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.5 }}
+          className="text-center mt-12"
+        >
+          <Link
+            href="/solutions"
+            className="inline-flex items-center gap-2 px-8 py-3.5 bg-brand-navy text-white font-semibold rounded-full hover:bg-brand-navy-mid transition-colors"
+          >
+            Xem tất cả giải pháp
+            <ArrowRight size={18} className="text-brand-cyan" />
+          </Link>
+        </motion.div>
       </div>
     </section>
   );

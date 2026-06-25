@@ -75,7 +75,7 @@ export default function Services() {
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-    <section id="services" className="py-20 lg:py-32 bg-[#f8fffe]" ref={ref}>
+    <section id="services" className="py-20 lg:py-32 bg-brand-surface" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -83,10 +83,10 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Dịch vụ
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
             Quy trình dịch vụ
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -96,7 +96,7 @@ export default function Services() {
         </motion.div>
 
         <div className="relative">
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-[#d4f5ef] via-[#0d7377] to-[#d4f5ef] -translate-y-1/2" />
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-cyan-soft via-brand-teal-mid to-brand-cyan-soft -translate-y-1/2" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-6 lg:gap-3">
             {serviceSteps.map((step, i) => (
@@ -107,15 +107,15 @@ export default function Services() {
                 transition={{ delay: 0.1 + i * 0.1, duration: 0.5 }}
                 className="relative flex flex-col items-center text-center group"
               >
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-[#0d7377] text-white text-xs font-bold rounded-full flex items-center justify-center z-10">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-brand-teal-mid text-white text-xs font-bold rounded-full flex items-center justify-center z-10">
                   {i + 1}
                 </div>
 
-                <div className="w-full p-5 pt-8 bg-white rounded-2xl border border-gray-100 hover:border-[#0d7377]/30 hover:shadow-xl transition-all duration-300">
-                  <div className="w-12 h-12 mx-auto bg-[#d4f5ef] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0d7377] transition-colors duration-300">
-                    <step.icon className="w-6 h-6 text-[#0d7377] group-hover:text-white transition-colors duration-300" />
+                <div className="w-full p-5 pt-8 bg-white rounded-2xl border border-gray-100 hover:border-brand-teal-mid/30 hover:shadow-xl transition-all duration-300">
+                  <div className="w-12 h-12 mx-auto bg-brand-cyan-soft rounded-xl flex items-center justify-center mb-4 group-hover:bg-brand-teal-mid transition-colors duration-300">
+                    <step.icon className="w-6 h-6 text-brand-teal-mid group-hover:text-white transition-colors duration-300" />
                   </div>
-                  <h4 className="text-sm font-bold text-[#14505c] mb-2">
+                  <h4 className="text-sm font-bold text-brand-teal mb-2">
                     {step.title}
                   </h4>
                   <p className="text-xs text-gray-500 leading-relaxed">
@@ -124,7 +124,7 @@ export default function Services() {
                 </div>
 
                 {i < serviceSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 -right-3 text-[#0d7377]">
+                  <div className="hidden lg:block absolute top-1/2 -right-3 text-brand-teal-mid">
                     <ArrowRight size={14} />
                   </div>
                 )}
@@ -144,12 +144,12 @@ export default function Services() {
               key={item.title}
               className="p-6 bg-white rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300"
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-[#0d7377] to-[#14505c] rounded-lg flex items-center justify-center mb-4">
+              <div className="w-10 h-10 bg-gradient-to-br from-brand-teal-mid to-brand-teal rounded-lg flex items-center justify-center mb-4">
                 <span className="text-white font-bold text-sm">
                   0{i + 1}
                 </span>
               </div>
-              <h4 className="text-base font-bold text-[#14505c] mb-3">
+              <h4 className="text-base font-bold text-brand-teal mb-3">
                 {item.title}
               </h4>
               <p className="text-sm text-gray-600 leading-relaxed">

@@ -17,10 +17,10 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Liên hệ
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
             Liên hệ với chúng tôi
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -36,13 +36,13 @@ export default function Contact() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="lg:col-span-2 space-y-6"
           >
-            <div className="p-6 bg-gradient-to-br from-[#0d2137] to-[#14505c] rounded-2xl text-white">
+            <div className="p-6 bg-gradient-to-br from-brand-navy to-brand-teal rounded-2xl text-white">
               <h3 className="text-xl font-bold mb-6">Thông tin liên hệ</h3>
 
               <div className="space-y-5">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
-                    <MapPin className="w-5 h-5 text-[#32e0c4]" />
+                    <MapPin className="w-5 h-5 text-brand-cyan" />
                   </div>
                   <div>
                     <p className="font-medium text-sm text-gray-300">Địa chỉ</p>
@@ -55,7 +55,7 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Phone className="w-5 h-5 text-[#32e0c4]" />
+                    <Phone className="w-5 h-5 text-brand-cyan" />
                   </div>
                   <div>
                     <p className="font-medium text-sm text-gray-300">
@@ -67,7 +67,7 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Mail className="w-5 h-5 text-[#32e0c4]" />
+                    <Mail className="w-5 h-5 text-brand-cyan" />
                   </div>
                   <div>
                     <p className="font-medium text-sm text-gray-300">Email</p>
@@ -77,7 +77,7 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0">
-                    <Clock className="w-5 h-5 text-[#32e0c4]" />
+                    <Clock className="w-5 h-5 text-brand-cyan" />
                   </div>
                   <div>
                     <p className="font-medium text-sm text-gray-300">
@@ -110,7 +110,7 @@ export default function Contact() {
                   <input
                     type="text"
                     placeholder="Nguyễn Văn A"
-                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all"
+                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all"
                   />
                 </div>
                 <div>
@@ -120,7 +120,7 @@ export default function Contact() {
                   <input
                     type="text"
                     placeholder="Tên công ty"
-                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all"
+                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all"
                   />
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function Contact() {
                   <input
                     type="email"
                     placeholder="email@company.com"
-                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all"
+                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all"
                   />
                 </div>
                 <div>
@@ -143,7 +143,7 @@ export default function Contact() {
                   <input
                     type="tel"
                     placeholder="0905 xxx xxx"
-                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all"
+                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all"
                   />
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-700 mb-1.5">
                   Lĩnh vực quan tâm
                 </label>
-                <select className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all text-gray-500">
+                <select className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all text-gray-500">
                   <option>Chọn lĩnh vực</option>
                   <option>Cơ khí chế tạo</option>
                   <option>Tự động hoá công nghiệp</option>
@@ -170,13 +170,13 @@ export default function Contact() {
                 <textarea
                   rows={4}
                   placeholder="Mô tả nhu cầu của bạn..."
-                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#0d7377]/20 focus:border-[#0d7377] transition-all resize-none"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal-mid/20 focus:border-brand-teal-mid transition-all resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-[#0d7377] to-[#14505c] text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-[#0d7377]/30 transition-all duration-300 hover:-translate-y-0.5"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-brand-navy text-white font-semibold rounded-xl hover:bg-brand-navy-mid hover:shadow-lg hover:shadow-brand-navy/30 transition-all duration-300 hover:-translate-y-0.5"
               >
                 <Send size={18} />
                 Gửi yêu cầu tư vấn

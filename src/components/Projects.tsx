@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import Image from "next/image";
 import {
   Gauge,
   MonitorCheck,
@@ -11,6 +12,7 @@ import {
   ClipboardList,
   CheckCircle2,
 } from "lucide-react";
+import { siteImages } from "@/lib/site-images";
 
 const projects = [
   {
@@ -19,6 +21,7 @@ const projects = [
     title: "Phần mềm Quản lý Năng lượng",
     description:
       "Hệ thống quản lý, giám sát và tối ưu năng lượng cho nhà máy sản xuất",
+    image: siteImages.projects.energy,
     features: [
       "Quản lý dữ liệu nhiều loại năng lượng sử dụng: điện, gas, xăng, dầu,...",
       "Thu thập dữ liệu từ đồng hồ năng lượng tự động",
@@ -35,6 +38,7 @@ const projects = [
     title: "Hệ thống SCADA Giám sát / Điều khiển Sản xuất",
     description:
       "Giám sát thời gian thực và điều khiển tự động các thiết bị sản xuất",
+    image: siteImages.projects.scada,
     features: [
       "Giám sát dữ liệu thời gian thực của thiết bị",
       "Cảnh báo các thông số ảnh hưởng đến sản xuất",
@@ -50,6 +54,7 @@ const projects = [
     icon: Database,
     title: "Phần mềm Quản lý Thiết bị",
     description: "Hệ thống quản lý toàn diện vòng đời thiết bị nhà máy",
+    image: siteImages.projects.equipment,
     features: [
       "Quản lý thông tin thiết bị: thông số kỹ thuật, lịch sử bảo trì",
       "Định danh thiết bị qua mã QR: Quét mã QR để xem đầy đủ thông tin",
@@ -65,6 +70,7 @@ const projects = [
     title: "MRP Module",
     description:
       "Hệ thống hoạch định nguồn lực sản xuất, quản lý nguyên vật liệu",
+    image: siteImages.projects.mrp,
     features: [
       "Master Data: Category setup, Trade Partner/Customer setup",
       "CBD: Define consumption for each product/SKU",
@@ -80,6 +86,7 @@ const projects = [
     title: "MES - Manufacturing Execution System",
     description:
       "Hệ thống điều hành sản xuất thông minh, theo dõi toàn bộ quy trình",
+    image: siteImages.projects.mes,
     features: [
       "CO Creation & Monitoring",
       "Line Planning & Execution",
@@ -96,6 +103,7 @@ const projects = [
     title: "WMS Module",
     description:
       "Hệ thống quản lý kho hàng, tối ưu logistics nội bộ",
+    image: siteImages.projects.wms,
     features: [
       "Inbound: Receiving List, Receiving Zone, Putaway",
       "Outbound: Delivery List, Delivery Confirm, History",
@@ -121,10 +129,10 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Dự án
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
             Dự án tiêu biểu
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -145,7 +153,7 @@ export default function Projects() {
               onClick={() => setActiveProject(project.id)}
               className={`px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 ${
                 activeProject === project.id
-                  ? "bg-[#0d7377] text-white shadow-lg shadow-[#0d7377]/30"
+                  ? "bg-brand-teal-mid text-white shadow-lg shadow-brand-teal-mid/30"
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"
               }`}
             >
@@ -170,7 +178,7 @@ export default function Projects() {
                 <active.icon className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h3 className="text-xl lg:text-2xl font-bold text-[#14505c]">
+                <h3 className="text-xl lg:text-2xl font-bold text-brand-teal">
                   {active.title}
                 </h3>
                 <p className="text-gray-500 text-sm mt-1">
@@ -188,7 +196,7 @@ export default function Projects() {
                   transition={{ delay: i * 0.05 }}
                   className="flex items-start gap-3 p-3 bg-gray-50 rounded-xl"
                 >
-                  <CheckCircle2 className="w-5 h-5 text-[#0d7377] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-brand-teal-mid shrink-0 mt-0.5" />
                   <span className="text-sm text-gray-700">{feature}</span>
                 </motion.div>
               ))}
@@ -196,29 +204,28 @@ export default function Projects() {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] bg-gradient-to-br from-[#0d2137] to-[#14505c] rounded-2xl overflow-hidden p-8 flex items-center justify-center">
-              <div className="absolute inset-0 opacity-10">
-                <div
-                  className="absolute inset-0"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(rgba(50,224,196,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(50,224,196,0.3) 1px, transparent 1px)",
-                    backgroundSize: "30px 30px",
-                  }}
-                />
-              </div>
-              <div className="relative text-center">
-                <active.icon className="w-24 h-24 text-[#32e0c4]/40 mx-auto mb-6" />
-                <h4 className="text-white text-xl font-bold mb-2">
-                  {active.title}
-                </h4>
-                <p className="text-gray-400 text-sm max-w-xs mx-auto">
-                  {active.description}
-                </p>
-                <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-[#32e0c4]/10 border border-[#32e0c4]/30 rounded-full text-[#32e0c4] text-sm">
-                  <span className="w-2 h-2 bg-[#32e0c4] rounded-full animate-pulse" />
-                  Đang vận hành
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-gray-200 shadow-xl">
+              <Image
+                src={active.image}
+                alt={active.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/30 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <div className="flex items-center gap-3 mb-3">
+                  <div
+                    className={`w-10 h-10 ${active.color} rounded-lg flex items-center justify-center`}
+                  >
+                    <active.icon className="w-5 h-5 text-white" />
+                  </div>
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 border border-white/20 rounded-full text-xs">
+                    <span className="w-2 h-2 bg-brand-cyan rounded-full animate-pulse" />
+                    Đang vận hành
+                  </div>
                 </div>
+                <h4 className="text-lg font-bold">{active.title}</h4>
               </div>
             </div>
           </div>
@@ -228,7 +235,7 @@ export default function Projects() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="mt-20 p-8 bg-gradient-to-r from-[#0d2137] to-[#14505c] rounded-3xl"
+          className="mt-20 p-8 bg-gradient-to-r from-brand-navy to-brand-teal rounded-3xl"
         >
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-2">
@@ -250,12 +257,12 @@ export default function Projects() {
                 key={sys.name}
                 className="p-4 bg-white/5 rounded-xl border border-white/10 text-center"
               >
-                <h4 className="text-[#32e0c4] text-lg font-bold mb-1">
+                <h4 className="text-brand-cyan text-lg font-bold mb-1">
                   {sys.name}
                 </h4>
                 <div className="w-full h-2 bg-white/10 rounded-full mb-2 overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-[#32e0c4] to-[#0d7377] rounded-full"
+                    className="h-full bg-gradient-to-r from-brand-cyan to-brand-teal-mid rounded-full"
                     style={{ width: sys.percent }}
                   />
                 </div>

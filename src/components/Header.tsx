@@ -1,17 +1,19 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Mail } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const navItems = [
-  { label: "Trang chủ", href: "#hero" },
-  { label: "Giới thiệu", href: "#about" },
-  { label: "Giải pháp", href: "#solutions" },
-  { label: "Sản phẩm", href: "#products" },
-  { label: "Dịch vụ", href: "#services" },
-  { label: "Dự án", href: "#projects" },
-  { label: "Liên hệ", href: "#contact" },
+  { label: "Trang chủ", href: "/" },
+  { label: "Giới thiệu", href: "/#about" },
+  { label: "Giải pháp", href: "/solutions" },
+  { label: "Sản phẩm", href: "/#products" },
+  { label: "Dịch vụ", href: "/#services" },
+  { label: "Dự án", href: "/#projects" },
+  { label: "Liên hệ", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -25,20 +27,20 @@ export default function Header() {
   }, []);
 
   return (
-    <>
-      <div className="hidden lg:block bg-[#0d2137] text-white text-sm py-2">
+    <div id="site-header" className="sticky top-0 z-50">
+      <div className="hidden lg:block bg-brand-navy text-white text-sm py-2">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-6">
             <a
               href="tel:0905696717"
-              className="flex items-center gap-2 hover:text-[#32e0c4] transition-colors"
+              className="flex items-center gap-2 hover:text-brand-cyan transition-colors"
             >
               <Phone size={14} />
               0905 696 717
             </a>
             <a
               href="mailto:info@bechnologies.vn"
-              className="flex items-center gap-2 hover:text-[#32e0c4] transition-colors"
+              className="flex items-center gap-2 hover:text-brand-cyan transition-colors"
             >
               <Mail size={14} />
               info@bechnologies.vn
@@ -51,7 +53,7 @@ export default function Header() {
       </div>
 
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${
+        className={`transition-all duration-300 ${
           isScrolled
             ? "bg-white/95 backdrop-blur-md shadow-lg"
             : "bg-white shadow-sm"
@@ -59,36 +61,40 @@ export default function Header() {
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            <a href="#hero" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#0d7377] to-[#14505c] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">B</span>
-              </div>
-              <div>
-                <span className="text-xl font-bold text-[#14505c] tracking-tight">
+            <Link
+              href="/"
+              className="flex items-center gap-3 shrink-0 py-1 -my-1 group"
+            >
+              <Logo variant="mini" priority />
+              <div className="hidden sm:block leading-none">
+                <span className="block text-base lg:text-lg font-bold text-brand-navy tracking-[0.12em] group-hover:text-brand-navy-mid transition-colors">
                   BECHNOLOGIES
                 </span>
+                <span className="block mt-1 text-[10px] lg:text-[11px] text-gray-500 uppercase tracking-wider">
+                  Better Technologies
+                </span>
               </div>
-            </a>
+            </Link>
 
             <div className="hidden lg:flex items-center gap-1">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
-                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[#0d7377] hover:bg-[#d4f5ef]/50 rounded-lg transition-all duration-200"
+                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/80 rounded-lg transition-all duration-200"
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
 
             <div className="hidden lg:flex items-center gap-4">
-              <a
-                href="#contact"
-                className="px-6 py-2.5 bg-gradient-to-r from-[#0d7377] to-[#14505c] text-white text-sm font-semibold rounded-full hover:shadow-lg hover:shadow-[#0d7377]/30 transition-all duration-300 hover:-translate-y-0.5"
+              <Link
+                href="/#contact"
+                className="px-6 py-2.5 bg-brand-navy text-white text-sm font-semibold rounded-full hover:bg-brand-navy-mid hover:shadow-lg hover:shadow-brand-navy/30 transition-all duration-300 hover:-translate-y-0.5"
               >
                 Liên hệ tư vấn
-              </a>
+              </Link>
             </div>
 
             <button
@@ -111,27 +117,27 @@ export default function Header() {
             >
               <div className="px-4 py-4 space-y-1">
                 {navItems.map((item) => (
-                  <a
+                  <Link
                     key={item.href}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block px-4 py-3 text-gray-700 hover:text-[#0d7377] hover:bg-[#d4f5ef]/30 rounded-lg transition-colors font-medium"
+                    className="block px-4 py-3 text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/50 rounded-lg transition-colors font-medium"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 ))}
-                <a
-                  href="#contact"
+                <Link
+                  href="/#contact"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="block mx-4 mt-4 px-6 py-3 bg-gradient-to-r from-[#0d7377] to-[#14505c] text-white text-center font-semibold rounded-full"
+                  className="block mx-4 mt-4 px-6 py-3 bg-brand-navy text-white text-center font-semibold rounded-full hover:bg-brand-navy-mid"
                 >
                   Liên hệ tư vấn
-                </a>
+                </Link>
               </div>
             </motion.div>
           )}
         </AnimatePresence>
       </header>
-    </>
+    </div>
   );
 }

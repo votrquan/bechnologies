@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 import {
   Car,
   Factory,
@@ -12,13 +13,20 @@ import {
   Cpu,
   Sun,
 } from "lucide-react";
+import { siteImages } from "@/lib/site-images";
 
 const industries = [
-  { icon: Car, title: "Ô tô", color: "from-blue-500 to-blue-600" },
+  {
+    icon: Car,
+    title: "Ô tô",
+    color: "from-blue-500 to-blue-600",
+    image: siteImages.applications.automotive,
+  },
   {
     icon: Factory,
     title: "Sản xuất công nghiệp",
     color: "from-gray-600 to-gray-700",
+    image: siteImages.applications.manufacturing,
   },
   {
     icon: Coffee,
@@ -35,13 +43,19 @@ const industries = [
     icon: Truck,
     title: "Logistic – Kho vận",
     color: "from-teal-500 to-teal-600",
+    image: siteImages.applications.logistics,
   },
   {
     icon: Cpu,
     title: "Điện - Điện tử",
     color: "from-indigo-500 to-indigo-600",
   },
-  { icon: Sun, title: "Năng lượng", color: "from-amber-500 to-amber-600" },
+  {
+    icon: Sun,
+    title: "Năng lượng",
+    color: "from-amber-500 to-amber-600",
+    image: siteImages.applications.energy,
+  },
 ];
 
 export default function Applications() {
@@ -57,10 +71,10 @@ export default function Applications() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 bg-[#d4f5ef] text-[#0d7377] text-sm font-semibold rounded-full mb-4">
+          <span className="inline-block px-4 py-1.5 bg-brand-cyan-soft text-brand-teal-mid text-sm font-semibold rounded-full mb-4">
             Ứng dụng
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#14505c] mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-teal mb-6">
             Ngành ứng dụng
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -76,18 +90,41 @@ export default function Applications() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: 0.1 + i * 0.08, duration: 0.4 }}
-              className="group relative overflow-hidden rounded-2xl bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+              className="group relative overflow-hidden rounded-2xl bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="p-6 lg:p-8 text-center">
-                <div
-                  className={`w-16 h-16 mx-auto bg-gradient-to-br ${industry.color} rounded-2xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}
-                >
-                  <industry.icon className="w-8 h-8 text-white" />
+              {industry.image ? (
+                <>
+                  <div className="relative h-28 sm:h-32">
+                    <Image
+                      src={industry.image}
+                      alt={industry.title}
+                      fill
+                      sizes="(max-width: 640px) 50vw, 25vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-brand-navy/20" />
+                  </div>
+                  <div className="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur rounded-xl flex items-center justify-center shadow-sm">
+                    <industry.icon className="w-5 h-5 text-brand-navy" />
+                  </div>
+                  <div className="p-4 pt-3 text-center">
+                    <h3 className="text-sm lg:text-base font-semibold text-brand-teal">
+                      {industry.title}
+                    </h3>
+                  </div>
+                </>
+              ) : (
+                <div className="p-6 lg:p-8 text-center">
+                  <div
+                    className={`w-16 h-16 mx-auto bg-gradient-to-br ${industry.color} rounded-2xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                  >
+                    <industry.icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-sm lg:text-base font-semibold text-brand-teal">
+                    {industry.title}
+                  </h3>
                 </div>
-                <h3 className="text-sm lg:text-base font-semibold text-[#14505c]">
-                  {industry.title}
-                </h3>
-              </div>
+              )}
             </motion.div>
           ))}
         </div>
