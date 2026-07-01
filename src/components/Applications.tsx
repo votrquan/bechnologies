@@ -19,41 +19,41 @@ const industries = [
   {
     icon: Car,
     title: "Ô tô",
-    color: "from-blue-500 to-blue-600",
     image: siteImages.applications.automotive,
   },
   {
     icon: Factory,
     title: "Sản xuất công nghiệp",
-    color: "from-gray-600 to-gray-700",
     image: siteImages.applications.manufacturing,
   },
   {
     icon: Coffee,
     title: "Thực phẩm – Đồ uống",
-    color: "from-orange-500 to-orange-600",
+    image: siteImages.applications.foodBeverage,
   },
   {
     icon: ShoppingBag,
     title: "Sản phẩm tiêu dùng",
-    color: "from-pink-500 to-pink-600",
+    image: siteImages.applications.consumerProducts,
   },
-  { icon: Pill, title: "Dược phẩm", color: "from-purple-500 to-purple-600" },
+  {
+    icon: Pill,
+    title: "Dược phẩm",
+    image: siteImages.applications.pharmaceuticals,
+  },
   {
     icon: Truck,
     title: "Logistic – Kho vận",
-    color: "from-teal-500 to-teal-600",
     image: siteImages.applications.logistics,
   },
   {
     icon: Cpu,
     title: "Điện - Điện tử",
-    color: "from-indigo-500 to-indigo-600",
+    image: siteImages.applications.electronics,
   },
   {
     icon: Sun,
     title: "Năng lượng",
-    color: "from-amber-500 to-amber-600",
     image: siteImages.applications.energy,
   },
 ];
@@ -92,39 +92,24 @@ export default function Applications() {
               transition={{ delay: 0.1 + i * 0.08, duration: 0.4 }}
               className="group relative overflow-hidden rounded-2xl bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              {industry.image ? (
-                <>
-                  <div className="relative h-28 sm:h-32">
-                    <Image
-                      src={industry.image}
-                      alt={industry.title}
-                      fill
-                      sizes="(max-width: 640px) 50vw, 25vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-brand-navy/20" />
-                  </div>
-                  <div className="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur rounded-xl flex items-center justify-center shadow-sm">
-                    <industry.icon className="w-5 h-5 text-brand-navy" />
-                  </div>
-                  <div className="p-4 pt-3 text-center">
-                    <h3 className="text-sm lg:text-base font-semibold text-brand-teal">
-                      {industry.title}
-                    </h3>
-                  </div>
-                </>
-              ) : (
-                <div className="p-6 lg:p-8 text-center">
-                  <div
-                    className={`w-16 h-16 mx-auto bg-gradient-to-br ${industry.color} rounded-2xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300`}
-                  >
-                    <industry.icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-sm lg:text-base font-semibold text-brand-teal">
-                    {industry.title}
-                  </h3>
-                </div>
-              )}
+              <div className="relative h-28 sm:h-32">
+                <Image
+                  src={industry.image}
+                  alt={industry.title}
+                  fill
+                  sizes="(max-width: 640px) 50vw, 25vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-brand-navy/20" />
+              </div>
+              <div className="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur rounded-xl flex items-center justify-center shadow-sm">
+                <industry.icon className="w-5 h-5 text-brand-navy" />
+              </div>
+              <div className="p-4 pt-3 text-center">
+                <h3 className="text-sm lg:text-base font-semibold text-brand-teal">
+                  {industry.title}
+                </h3>
+              </div>
             </motion.div>
           ))}
         </div>

@@ -22,6 +22,10 @@ export const siteImages = {
   applications: {
     automotive: "/images/gallery/robot-assembly-line.png",
     manufacturing: "/images/gallery/production-line.png",
+    foodBeverage: "/images/gallery/automation-machine.png",
+    consumerProducts: "/images/gallery/smart-factory-platform.png",
+    pharmaceuticals: "/images/gallery/ai-analytics-dashboard.png",
+    electronics: "/images/gallery/electrical-cabinet.png",
     energy: "/images/gallery/energy-dashboard.png",
     logistics: "/images/gallery/amr-warehouse.png",
   },

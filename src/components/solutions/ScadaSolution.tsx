@@ -2,7 +2,6 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import Image from "next/image";
 import {
   Monitor,
   Clock,
@@ -17,13 +16,11 @@ import {
   Factory,
   Layers,
 } from "lucide-react";
-import { siteImages } from "@/lib/site-images";
 
 const tocItems = [
   "Giới thiệu hệ thống SCADA",
   "Cấu trúc và giao diện hệ thống",
   "Lợi ích mang lại",
-  "Demo giao diện phần mềm SCADA",
 ];
 
 const pyramidLevels = [
@@ -254,7 +251,7 @@ export default function ScadaSolution({ embedded = false }: { embedded?: boolean
                 className="flex gap-3 text-brand-navy font-semibold text-sm sm:text-base"
               >
                 <span className="text-brand-cyan-readable shrink-0">
-                  {["I", "II", "III", "IV"][i]}.
+                  {["I", "II", "III"][i]}.
                 </span>
                 {item}
               </li>
@@ -338,17 +335,6 @@ export default function ScadaSolution({ embedded = false }: { embedded?: boolean
               </ul>
             </div>
           </div>
-
-          {/* Control room image */}
-          <div className="mt-10 rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
-            <Image
-              src={siteImages.scada.controlRoom}
-              alt="Phòng điều khiển SCADA"
-              width={1200}
-              height={400}
-              className="w-full h-auto object-cover object-center max-h-96"
-            />
-          </div>
         </motion.div>
 
         {/* ═══ II. CẤU TRÚC VÀ GIAO DIỆN ═══ */}
@@ -405,62 +391,6 @@ export default function ScadaSolution({ embedded = false }: { embedded?: boolean
                 </p>
               </div>
             ))}
-          </div>
-
-          <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-lg">
-            <Image
-              src={siteImages.scada.mainElectric}
-              alt="Cấu trúc và giao diện hệ thống SCADA"
-              width={1200}
-              height={500}
-              className="w-full h-auto"
-            />
-          </div>
-
-          <div className="mt-10">
-            <p className="text-sm font-bold text-brand-navy mb-4">
-              Giao diện SCADA thực tế
-            </p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {[
-                {
-                  src: siteImages.scada.paintRoom,
-                  alt: "Giao diện SCADA phòng sơn",
-                  label: "Paint Room System",
-                },
-                {
-                  src: siteImages.scada.wastewater,
-                  alt: "Giao diện SCADA xử lý nước thải",
-                  label: "Wastewater Treatment",
-                },
-                {
-                  src: siteImages.scada.assemblyShop,
-                  alt: "Giao diện SCADA xưởng lắp ráp",
-                  label: "Assembly Shop",
-                },
-                {
-                  src: siteImages.scada.powerSystem,
-                  alt: "Giao diện SCADA hệ thống điện",
-                  label: "Power System",
-                },
-              ].map((item) => (
-                <div
-                  key={item.label}
-                  className="rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-sm"
-                >
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    width={800}
-                    height={500}
-                    className="w-full h-auto"
-                  />
-                  <p className="px-4 py-3 text-sm font-semibold text-brand-navy border-t border-gray-100">
-                    {item.label}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
         </motion.div>
 
