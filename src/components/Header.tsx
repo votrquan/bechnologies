@@ -4,14 +4,16 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { ChevronDown, Menu, X, Phone, Mail } from "lucide-react";
 import Logo from "@/components/Logo";
+import ProductsMegaMenu from "@/components/ProductsMegaMenu";
+import { productMenuColumns } from "@/lib/product-menu";
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
   { label: "Giới thiệu", href: "/#about" },
   { label: "Giải pháp", href: "/solutions" },
-  { label: "Sản phẩm", href: "/product", newTab: true },
+  { label: "Sản phẩm", href: "/#products", mega: true },
   { label: "Dịch vụ", href: "/#services" },
   { label: "Dự án", href: "/#projects" },
   { label: "Liên hệ", href: "/#contact" },
@@ -22,12 +24,20 @@ export default function Header() {
   const onProductSection = pathname?.startsWith("/product") ?? false;
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    setProductsOpen(false);
+    setMobileProductsOpen(false);
+    setMobileMenuOpen(false);
+  }, [pathname]);
 
   return (
     <div id="site-header" className="sticky top-0 z-50">
@@ -80,23 +90,24 @@ export default function Header() {
             </Link>
 
             <div className="hidden lg:flex items-center gap-1">
-              {navItems.map((item) => {
-                const openNewTab =
-                  Boolean(item.newTab) &&
-                  !(item.href === "/product" && onProductSection);
-                return (
+              {navItems.map((item) =>
+                item.mega ? (
+                  <ProductsMegaMenu
+                    key={item.label}
+                    open={productsOpen}
+                    onOpenChange={setProductsOpen}
+                    openCatalogInNewTab={!onProductSection}
+                  />
+                ) : (
                   <Link
                     key={item.href}
                     href={item.href}
-                    {...(openNewTab
-                      ? { target: "_blank", rel: "noopener noreferrer" }
-                      : {})}
                     className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/80 rounded-lg transition-all duration-200"
                   >
                     {item.label}
                   </Link>
-                );
-              })}
+                )
+              )}
             </div>
 
             <div className="hidden lg:flex items-center gap-4">
@@ -127,24 +138,97 @@ export default function Header() {
               className="lg:hidden bg-white border-t overflow-hidden"
             >
               <div className="px-4 py-4 space-y-1">
-                {navItems.map((item) => {
-                  const openNewTab =
-                    Boolean(item.newTab) &&
-                    !(item.href === "/product" && onProductSection);
-                  return (
+                {navItems.map((item) =>
+                  item.mega ? (
+                    <div key={item.label} className="rounded-lg overflow-hidden">
+                      <button
+                        type="button"
+                        onClick={() => setMobileProductsOpen((v) => !v)}
+                        className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/50 rounded-lg transition-colors font-medium"
+                        aria-expanded={mobileProductsOpen}
+                      >
+                        Sản phẩm
+                        <ChevronDown
+                          size={16}
+                          className={`transition-transform ${
+                            mobileProductsOpen ? "rotate-180" : ""
+                          }`}
+                        />
+                      </button>
+
+                      <AnimatePresence>
+                        {mobileProductsOpen && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            exit={{ opacity: 0, height: 0 }}
+                            className="overflow-hidden bg-brand-navy text-white rounded-xl mx-1 mb-2"
+                          >
+                            <div className="px-4 py-3 space-y-4">
+                              {productMenuColumns.map((col) => (
+                                <div key={col.title}>
+                                  <Link
+                                    href={col.href}
+                                    {...(col.href === "/product" &&
+                                    !onProductSection
+                                      ? {
+                                          target: "_blank",
+                                          rel: "noopener noreferrer",
+                                        }
+                                      : {})}
+                                    onClick={() => setMobileMenuOpen(false)}
+                                    className="block text-xs font-bold text-brand-cyan uppercase tracking-wide mb-2"
+                                  >
+                                    {col.title}
+                                  </Link>
+                                  <ul className="space-y-1.5 pl-1">
+                                    {col.links.map((link) => (
+                                      <li key={`${col.title}-${link.label}`}>
+                                        <Link
+                                          href={link.href}
+                                          {...(link.href.startsWith(
+                                            "/product"
+                                          ) && !onProductSection
+                                            ? {
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                              }
+                                            : {})}
+                                          onClick={() =>
+                                            setMobileMenuOpen(false)
+                                          }
+                                          className="block text-sm text-gray-300 hover:text-white py-0.5"
+                                        >
+                                          {link.label}
+                                        </Link>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ))}
+                              <Link
+                                href="/#products"
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="block pt-2 border-t border-white/10 text-sm font-semibold text-white"
+                              >
+                                Sản phẩm Bechnologies
+                              </Link>
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
                     <Link
                       key={item.href}
                       href={item.href}
-                      {...(openNewTab
-                        ? { target: "_blank", rel: "noopener noreferrer" }
-                        : {})}
                       onClick={() => setMobileMenuOpen(false)}
                       className="block px-4 py-3 text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/50 rounded-lg transition-colors font-medium"
                     >
                       {item.label}
                     </Link>
-                  );
-                })}
+                  )
+                )}
                 <Link
                   href="/#contact"
                   onClick={() => setMobileMenuOpen(false)}

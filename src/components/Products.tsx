@@ -130,14 +130,21 @@ export default function Products() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link
+            href="/#contact"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-brand-navy text-white font-semibold rounded-full hover:bg-brand-navy-hover transition-colors"
+          >
+            Tư vấn sản phẩm
+            <ArrowRight size={18} />
+          </Link>
           <Link
             href="/product"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-brand-navy text-white font-semibold rounded-full hover:bg-brand-navy-hover transition-colors"
+            className="inline-flex items-center gap-2 px-8 py-4 border border-brand-navy/20 text-brand-navy font-semibold rounded-full hover:bg-brand-cyan-soft/60 transition-colors"
           >
-            Xem danh mục Hongfa (đóng cắt &amp; bảo vệ)
+            Catalog Hongfa LV
             <ArrowRight size={18} />
           </Link>
         </div>
