@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import Logo from "@/components/Logo";
@@ -10,13 +11,15 @@ const navItems = [
   { label: "Trang chủ", href: "/" },
   { label: "Giới thiệu", href: "/#about" },
   { label: "Giải pháp", href: "/solutions" },
-  { label: "Sản phẩm", href: "/#products" },
+  { label: "Sản phẩm", href: "/product", newTab: true },
   { label: "Dịch vụ", href: "/#services" },
   { label: "Dự án", href: "/#projects" },
   { label: "Liên hệ", href: "/#contact" },
 ];
 
 export default function Header() {
+  const pathname = usePathname();
+  const onProductSection = pathname?.startsWith("/product") ?? false;
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -77,15 +80,23 @@ export default function Header() {
             </Link>
 
             <div className="hidden lg:flex items-center gap-1">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/80 rounded-lg transition-all duration-200"
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const openNewTab =
+                  Boolean(item.newTab) &&
+                  !(item.href === "/product" && onProductSection);
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    {...(openNewTab
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
+                    className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/80 rounded-lg transition-all duration-200"
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
 
             <div className="hidden lg:flex items-center gap-4">
@@ -116,16 +127,24 @@ export default function Header() {
               className="lg:hidden bg-white border-t overflow-hidden"
             >
               <div className="px-4 py-4 space-y-1">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="block px-4 py-3 text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/50 rounded-lg transition-colors font-medium"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
+                {navItems.map((item) => {
+                  const openNewTab =
+                    Boolean(item.newTab) &&
+                    !(item.href === "/product" && onProductSection);
+                  return (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      {...(openNewTab
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="block px-4 py-3 text-gray-700 hover:text-brand-navy-mid hover:bg-brand-cyan-soft/50 rounded-lg transition-colors font-medium"
+                    >
+                      {item.label}
+                    </Link>
+                  );
+                })}
                 <Link
                   href="/#contact"
                   onClick={() => setMobileMenuOpen(false)}

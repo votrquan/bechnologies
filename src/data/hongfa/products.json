@@ -1,0 +1,5692 @@
+{
+  "updatedAt": "2026-11-07T03:27:11.156Z",
+  "products": [
+    {
+      "id": "uec3-06c",
+      "slug": "uec3-06c",
+      "name": "UEC3-06C",
+      "model": "UEC3-06C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "6A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-06C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "1.5 kW at 220/230 V AC 50/60 Hz (AC-3) 2.2 kW at 380/400 V AC 50/60 Hz (AC-3) 3 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1，BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 6 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "6 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 5 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 20 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "1.5 hp at 110…120 V AC 50/60 Hz for 1 phase motors 0.75 hp at 200…208 V AC 50/60 Hz for 1 phase motors 1 hp at 220…240 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 3 phases motors 2 hp at 220…240 V AC 50/60 Hz for 3 phases motors 5 hp at 440…480 V AC 50/60 Hz for 3 phases motors 5 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "20 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "80 A ≤40 °C - 10 s for power circuit 45 A ≤40 °C - 1 min for power circuit 20 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-09C",
+        "UEC3-12C",
+        "UEC3-18C",
+        "UEC3-25C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-06c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-06C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-06C, 6A (AC-3)."
+    },
+    {
+      "id": "uec3-09c",
+      "slug": "uec3-09c",
+      "name": "UEC3-09C",
+      "model": "UEC3-09C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "9A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-09C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "2.2 kW at 220/230 V AC 50/60 Hz (AC-3) 4 kW at 380/400 V AC 50/60 Hz (AC-3) 5.5 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1，BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 9 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "9 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 7.5 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 20 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "1.5 hp at 110…120 V AC 50/60 Hz for 1 phase motors 1 hp at 200…208 V AC 50/60 Hz for 1 phase motors 1 hp at 220…240 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 3 phases motors 3 hp at 220…240 V AC 50/60 Hz for 3 phases motors 5 hp at 440…480 V AC 50/60 Hz for 3 phases motors 7.5 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "20 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "105 A ≤40 °C - 10 s for power circuit 61 A ≤40 °C - 1 min for power circuit 30 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-12C",
+        "UEC3-18C",
+        "UEC3-25C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-09c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-09C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-09C, 9A (AC-3)."
+    },
+    {
+      "id": "uec3-12c",
+      "slug": "uec3-12c",
+      "name": "UEC3-12C",
+      "model": "UEC3-12C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "12A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-12C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "3 kW at 220/230 V AC 50/60 Hz (AC-3) 5.5 kW at 380/400 V AC 50/60 Hz (AC-3) 7.5 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1，BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 12 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "12 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 10 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 25 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "0.75 hp at 110…120 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 1 phase motors 2 hp at 220…240 V AC 50/60 Hz for 1 phase motors 3 hp at 200…208 V AC 50/60 Hz for 3 phases motors 3 hp at 220…240 V AC 50/60 Hz for 3 phases motors 7.5 hp at 440…480 V AC 50/60 Hz for 3 phases motors 10 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "25 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "105 A ≤40 °C - 10 s for power circuit 61 A ≤40 °C - 1 min for power circuit 30 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-09C",
+        "UEC3-18C",
+        "UEC3-25C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-12c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-12C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-12C, 12A (AC-3)."
+    },
+    {
+      "id": "uec3-18c",
+      "slug": "uec3-18c",
+      "name": "UEC3-18C",
+      "model": "UEC3-18C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "18A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-18C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "4 kW at 220/230 V AC 50/60 Hz (AC-3) 7.5 kW at 380/400 V AC 50/60 Hz (AC-3) 10 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1， BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 18 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "18 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 15 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 32 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "1 hp at 110…120 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 1 phase motors 3 hp at 220…240 V AC 50/60 Hz for 1 phase motors 5 hp at 200…208 V AC 50/60 Hz for 3 phases motors 5 hp at 220…240 V AC 50/60 Hz for 3 phases motors 10 hp at 440…480 V AC 50/60 Hz for 3 phases motors 15 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "32 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "145 A ≤40 °C - 10 s for power circuit 84 A ≤40 °C - 1 min for power circuit 40 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-09C",
+        "UEC3-12C",
+        "UEC3-25C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-18c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-18C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-18C, 18A (AC-3)."
+    },
+    {
+      "id": "uec3-25c",
+      "slug": "uec3-25c",
+      "name": "UEC3-25C",
+      "model": "UEC3-25C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "25A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-25C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "5.5 kW at 220/230 V AC 50/60 Hz (AC-3) 11 kW at 380/400 V AC 50/60 Hz (AC-3) 10 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1，BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 25 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "25 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 15 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 32 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "3 hp at 220…240 V AC 50/60 Hz for 1 phase motors 7.5 hp at 220…240 V AC 50/60 Hz for 3 phases motors 15 hp at 440…480 V AC 50/60 Hz for 3 phases motors 15 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "32 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "145 A ≤40 °C - 10 s for power circuit 84 A ≤40 °C - 1 min for power circuit 40 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-09C",
+        "UEC3-12C",
+        "UEC3-18C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-25c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-25C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-25C, 25A (AC-3)."
+    },
+    {
+      "id": "uec3-32c",
+      "slug": "uec3-32c",
+      "name": "UEC3-32C",
+      "model": "UEC3-32C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "32A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-32C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "7.5 kW at 220/230 V AC 50/60 Hz (AC-3) 15 kW at 380/400 V AC 50/60 Hz (AC-3) 18.5 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1， BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA， UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "85.5 mm"
+        },
+        {
+          "label": "Width",
+          "value": "56 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.38 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "0.8 M cycles 32 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "32 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 26.7 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 50 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "2 hp at 110…120 V AC 50/60 Hz for 1 phase motors 5 hp at 200…208 V AC 50/60 Hz for 1 phase motors 5 hp at 220…240 V AC 50/60 Hz for 1 phase motors 10 hp at 200…208 V AC 50/60 Hz for 3 phases motors 10 hp at 220…240 V AC 50/60 Hz for 3 phases motors 20 hp at 440…480 V AC 50/60 Hz for 3 phases motors 25 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "50 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "260 A ≤40 °C - 10 s for power circuit 138 A ≤40 °C - 1 min for power circuit 60 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 50 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-09C",
+        "UEC3-12C",
+        "UEC3-18C",
+        "UEC3-25C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-32c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-32C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-32C, 32A (AC-3)."
+    },
+    {
+      "id": "uec3-38c",
+      "slug": "uec3-38c",
+      "name": "UEC3-38C",
+      "model": "UEC3-38C",
+      "series": "UEC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "38A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC3-38C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "9 kW at 220/230 V AC 50/60 Hz (AC-3) 18.5 kW at 380/400 V AC 50/60 Hz (AC-3) 18.5 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1，BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA， UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "85.5 mm"
+        },
+        {
+          "label": "Width",
+          "value": "56 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.38 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "0.8 M cycles 38 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "38 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 31.7 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 50 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "3 hp at 110…120 V AC 50/60 Hz for 1 phase motors 5 hp at 200…208 V AC 50/60 Hz for 1 phase motors 5 hp at 220…240 V AC 50/60 Hz for 1 phase motors 10 hp at 200…208 V AC 50/60 Hz for 3 phases motors 10 hp at 220…240 V AC 50/60 Hz for 3 phases motors 20 hp at 440…480 V AC 50/60 Hz for 3 phases motors 25 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "50 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "310 A ≤40 °C - 10 s for power circuit 150 A ≤40 °C - 1 min for power circuit 60 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 50 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC3-06C",
+        "UEC3-09C",
+        "UEC3-12C",
+        "UEC3-18C",
+        "UEC3-25C",
+        "UEC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec3-38c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC3-38C",
+      "category": "control-gear",
+      "seriesSlug": "uec3-c",
+      "shortDescription": "Industry IEC Contactors UEC3-C — model UEC3-38C, 38A (AC-3)."
+    },
+    {
+      "id": "uec1-25c",
+      "slug": "uec1-25c",
+      "name": "UEC1-25C",
+      "model": "UEC1-25C",
+      "series": "UEC1-C",
+      "type": "Industry IEC Contactors",
+      "range": "25A (AC-3)",
+      "description": "Optimized structure, compatible with other industrial contactors",
+      "features": [
+        "Optimized structure, compatible with other industrial contactors",
+        "Optimized materials, excellent resistance to abnormal heat",
+        "Optimized arc extinguishing system, better arc extinguishing effect for breaking load current",
+        "Long electric endurance under heavy load (AC-4 utilization category).",
+        "Abundant auxiliary contact blocks, can be freely combined",
+        "Suitable for harsh environments."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC1"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC1-25C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "5.5 kW at 220/230 V AC 50/60 Hz (AC-3) 11 kW at 380/400 V AC 50/60 Hz (AC-3) 15 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO1NC，2NO2NC，other combinations can be customized"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1， BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "92.5 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "100 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.47 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 25 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "Rated Operational Current [Ie]",
+          "value": "25 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 40 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 42 48 110 115 127 220 230 240 380 400 415"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "2 hp at 110…120 V AC 50/60 Hz for 1 phase motors 3 hp at 200…208 V AC 50/60 Hz for 1 phase motors 3 hp at 220…240 V AC 50/60 Hz for 1 phase motors 7.5 hp at 200…208 V AC 50/60 Hz for 3 phases motors 7.5 hp at 220…240 V AC 50/60 Hz for 3 phases motors 15 hp at 440…480 V AC 50/60 Hz for 3 phases motors 20 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "Conventional Free Air Thermal Current [Ith]",
+          "value": "40 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current [Icw]",
+          "value": "240 A ≤40 °C - 10 s for power circuit 380 A ≤40 °C - 1 s for power circuit 50 A ≤40 °C - 10 min for power circuit 120 A ≤40 °C - 1 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 40 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC1-09C",
+        "UEC1-115C",
+        "UEC1-150C",
+        "UEC1-170C",
+        "UEC1-18C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec1-25c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC1-25C",
+      "category": "control-gear",
+      "seriesSlug": "uec1-c",
+      "shortDescription": "Industry IEC Contactors UEC1-C — model UEC1-25C, 25A (AC-3)."
+    },
+    {
+      "id": "uec1-95c",
+      "slug": "uec1-95c",
+      "name": "UEC1-95C",
+      "model": "UEC1-95C",
+      "series": "UEC1-C",
+      "type": "Industry IEC Contactors",
+      "range": "95A (AC-3)",
+      "description": "Optimized structure, compatible with other industrial contactors",
+      "features": [
+        "Optimized structure, compatible with other industrial contactors",
+        "Optimized materials, excellent resistance to abnormal heat",
+        "Optimized arc extinguishing system, better arc extinguishing effect for breaking load current",
+        "Long electric endurance under heavy load (AC-4 utilization category).",
+        "Abundant auxiliary contact blocks, can be freely combined",
+        "Suitable for harsh environments."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "UEC1"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEC1-95C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "25 kW at 220/230 V AC 50/60 Hz (AC-3) 45 kW at 380/400 V AC 50/60 Hz (AC-3) 45 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO1NC，2NO2NC，other combinations can be customized"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm or 75mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1， BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，VDE，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "121 mm"
+        },
+        {
+          "label": "Width",
+          "value": "70 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "137.5 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1.4 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "3 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "0.9 M cycles 95 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "Rated Operational Current [Ie]",
+          "value": "95 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 125 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 42 48 110 115 127 220 230 240 380 400 415"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "10 hp at 110…120 V AC 50/60 Hz for 1 phase motors 15 hp at 200…208 V AC 50/60 Hz for 1 phase motors 20 hp at 220…240 V AC 50/60 Hz for 1 phase motors 30 hp at 200…208 V AC 50/60 Hz for 3 phases motors 30 hp at 220…240 V AC 50/60 Hz for 3 phases motors 75 hp at 440…480 V AC 50/60 Hz for 3 phases motors 75 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "Conventional Free Air Thermal Current [Ith]",
+          "value": "125 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current [Icw]",
+          "value": "800 A ≤40 °C - 10 s for power circuit 1100 A ≤40 °C - 1 s for power circuit 135 A ≤40 °C - 10 min for power circuit 400 A ≤40 °C - 1 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 125 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "0.8 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "UEC1-09C",
+        "UEC1-115C",
+        "UEC1-150C",
+        "UEC1-170C",
+        "UEC1-18C",
+        "UEC1-25C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uec1-95c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEC1-95C",
+      "category": "control-gear",
+      "seriesSlug": "uec1-c",
+      "shortDescription": "Industry IEC Contactors UEC1-C — model UEC1-95C, 95A (AC-3)."
+    },
+    {
+      "id": "hfuc3-18c",
+      "slug": "hfuc3-18c",
+      "name": "HFUC3-18C",
+      "model": "HFUC3-18C",
+      "series": "HFUC3-C",
+      "type": "Industry IEC Contactors",
+      "range": "18A (AC-3)",
+      "description": "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+      "features": [
+        "The product adopts high-performance silver alloy contacts, with a long electrical life.",
+        "Wide range of operating voltage and reliable operation though there’s grid voltage fluctuation.",
+        "H-grade high-temperature resistant enameled wire, with more durable coils.",
+        "The coil supports up and down wire entry, meeting various wiring needs of customers.",
+        "Buffer optimization, less noise of electromagnetic system.",
+        "By installing the top dust cover and side dust stickers, the dust prevention is better.",
+        "Product miniaturization design, smaller volume."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "HFUC3"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "HFUC3-18C"
+        },
+        {
+          "label": "Contactor Application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor Power kW",
+          "value": "4 kW at 220/230 V AC 50/60 Hz (AC-3) 7.5 kW at 380/400 V AC 50/60 Hz (AC-3) 10 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary Contact Composition",
+          "value": "1NO，1NC"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB/T 14048.4，GB/T 14048.5， IEC/EN 60947-4-1，IEC/EN 60947-5-1， BS EN 60947-4-1，BS EN 60947-5-1，UL 60947-4-1，UL 60947-5-1"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC，CE，UKCA，TÜV，UL (cULus LISTED)"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "74 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "80 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.31 kg"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1.0 M cycles 18 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated Operational Voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated Operational Current",
+          "value": "18 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 15 A (at ≤60 °C) at ≤ 400 V AC AC-4 for power circuit 32 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control Circuit Voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 48 110 220…230 380"
+        },
+        {
+          "label": "Motor Power hp",
+          "value": "1 hp at 110…120 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 1 phase motors 3 hp at 220…240 V AC 50/60 Hz for 1 phase motors 5 hp at 200…208 V AC 50/60 Hz for 3 phases motors 5 hp at 220…240 V AC 50/60 Hz for 3 phases motors 10 hp at 440…480 V AC 50/60 Hz for 3 phases motors 15 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole Contact Composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional Free Air Thermal Current",
+          "value": "32 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated Short-time Withstand Current",
+          "value": "145 A ≤40 °C - 10 s for power circuit 84 A ≤40 °C - 1 min for power circuit 40 A ≤40 °C - 10 min for power circuit"
+        },
+        {
+          "label": "Associated Fuse Rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 32 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average Impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated Insulation Voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "HFUC3-06C",
+        "HFUC3-09C",
+        "HFUC3-12C",
+        "HFUC3-25C",
+        "HFUC3-32C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/hfuc3-18c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/HFUC3-18C",
+      "category": "control-gear",
+      "seriesSlug": "hfuc3-c",
+      "shortDescription": "Industry IEC Contactors HFUC3-C — model HFUC3-18C, 18A (AC-3)."
+    },
+    {
+      "id": "hfuc5-09c",
+      "slug": "hfuc5-09c",
+      "name": "HFUC5-09C",
+      "model": "HFUC5-09C",
+      "series": "HFUC5-C",
+      "type": "Industry IEC Contactors",
+      "range": "9A (AC-3)",
+      "description": "Optimized structure, compatible with other industrial contactors",
+      "features": [
+        "Optimized structure, compatible with other industrial contactors",
+        "Optimized materials, excellent resistance to abnormal heat",
+        "Optimized arc extinguishing system, better arc extinguishing effect for breaking load current",
+        "Long electric endurance under heavy load (AC-4 utilization category).",
+        "Abundant auxiliary contact blocks, can be freely combined",
+        "Suitable for harsh environments."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "HFUC5"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device short name",
+          "value": "HFUC5-09"
+        },
+        {
+          "label": "Contactor application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor power kW",
+          "value": "2.2 kW at 220/230 V AC 50/60 Hz (AC-3) 4 kW at 380/400 V AC 50/60 Hz (AC-3) 5.5 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary contact composition",
+          "value": "1NO1NC，2NO2NC，other combinations can be customized"
+        },
+        {
+          "label": "Mounting support",
+          "value": "Screw 35mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB / T 14048.4, GB/T 14048.5，IEC 60947-4-1, IEC 60947-5-1 UL 60947-4-1, UL 60947-5-1，CSA C22.2 No. 60947-4-1, CSA C22.2 No. 60947-5-1 EN 60947-4-1 (VDE 0660 Teil 102), EN 60947-5-1 (VDE 0660 Teil 200) BS EN 60947-4-1, BS EN 60947-5-1"
+        },
+        {
+          "label": "Product certifications",
+          "value": "CCC，UL(cULus Listed) ，VDE，CE，UKCA"
+        },
+        {
+          "label": "IP degree of protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "90 mm"
+        },
+        {
+          "label": "Width",
+          "value": "45 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "96 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "0.42 kg"
+        },
+        {
+          "label": "Mechanical durability",
+          "value": "10 M cycles"
+        },
+        {
+          "label": "Electrical durability",
+          "value": "1.2 M cycles 9 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated operational voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated operational current",
+          "value": "9 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 25 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control circuit voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 42 48 110 115 127 220 230 240 380 400 415"
+        },
+        {
+          "label": "Motor power hp",
+          "value": "1 hp at 110…120 V AC 50/60 Hz for 1 phase motors 1 hp at 200…208 V AC 50/60 Hz for 1 phase motors 1 hp at 220…240 V AC 50/60 Hz for 1 phase motors 2 hp at 200…208 V AC 50/60 Hz for 3 phases motors 3 hp at 220…240 V AC 50/60 Hz for 3 phases motors 5 hp at 440…480 V AC 50/60 Hz for 3 phases motors 7.5 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole contact composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional free air thermal current",
+          "value": "25 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated short-time withstand current",
+          "value": "105 A ≤40 °C - 10 s for power circuit 210 A ≤40 °C - 1 s for power circuit 30 A ≤40 °C - 10 min for power circuit 61 A ≤40 °C - 1 min for power circuit"
+        },
+        {
+          "label": "Associated fuse rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 25 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average impedance",
+          "value": "2.7 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated insulation voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "HFUC5-115C",
+        "HFUC5-12C",
+        "HFUC5-150C",
+        "HFUC5-170C",
+        "HFUC5-18C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/hfuc5-09c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/HFUC5-09C",
+      "category": "control-gear",
+      "seriesSlug": "hfuc5-c",
+      "shortDescription": "Industry IEC Contactors HFUC5-C — model HFUC5-09C, 9A (AC-3)."
+    },
+    {
+      "id": "hfuc5-95c",
+      "slug": "hfuc5-95c",
+      "name": "HFUC5-95C",
+      "model": "HFUC5-95C",
+      "series": "HFUC5-C",
+      "type": "Industry IEC Contactors",
+      "range": "95A (AC-3)",
+      "description": "Optimized structure, compatible with other industrial contactors",
+      "features": [
+        "Optimized structure, compatible with other industrial contactors",
+        "Optimized materials, excellent resistance to abnormal heat",
+        "Optimized arc extinguishing system, better arc extinguishing effect for breaking load current",
+        "Long electric endurance under heavy load (AC-4 utilization category).",
+        "Abundant auxiliary contact blocks, can be freely combined",
+        "Suitable for harsh environments."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "HFUC5"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Contactor"
+        },
+        {
+          "label": "Device short name",
+          "value": "HFUC5-95"
+        },
+        {
+          "label": "Contactor application",
+          "value": "Motor control Resistive load"
+        },
+        {
+          "label": "Utilisation category",
+          "value": "AC-3 AC-4 AC-1"
+        },
+        {
+          "label": "Poles description",
+          "value": "3P"
+        },
+        {
+          "label": "Motor power kW",
+          "value": "25 kW at 220/230 V AC 50/60 Hz (AC-3) 45 kW at 380/400 V AC 50/60 Hz (AC-3) 45 kW at 660/690 V AC 50/60 Hz (AC-3)"
+        },
+        {
+          "label": "Auxiliary contact composition",
+          "value": "1NO1NC，2NO2NC，other combinations can be customized"
+        },
+        {
+          "label": "Mounting support",
+          "value": "Screw 35mm or 75mm DIN Rail"
+        },
+        {
+          "label": "Standards",
+          "value": "GB / T 14048.4, GB/T 14048.5，IEC 60947-4-1, IEC 60947-5-1 UL 60947-4-1, UL 60947-5-1，CSA C22.2 No. 60947-4-1, CSA C22.2 No. 60947-5-1 EN 60947-4-1 (VDE 0660 Teil 102), EN 60947-5-1 (VDE 0660 Teil 200) BS EN 60947-4-1, BS EN 60947-5-1"
+        },
+        {
+          "label": "Product certifications",
+          "value": "CCC，UL(cULus Listed) ，VDE，CE，UKCA"
+        },
+        {
+          "label": "IP degree of protection",
+          "value": "IP20 front face conforming to IEC 60529"
+        },
+        {
+          "label": "Height",
+          "value": "121 mm"
+        },
+        {
+          "label": "Width",
+          "value": "70 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "137.5 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1.4 kg"
+        },
+        {
+          "label": "Mechanical durability",
+          "value": "5 M cycles"
+        },
+        {
+          "label": "Electrical durability",
+          "value": "0.9 M cycles 95 A AC-3 at Ue ≤ 400 V"
+        },
+        {
+          "label": "[Ue] Rated operational voltage",
+          "value": "Power circuit: ≤ 690 V AC 50/60Hz"
+        },
+        {
+          "label": "[Ie] Rated operational current",
+          "value": "95 A (at ≤60 °C) at ≤ 400 V AC AC-3 for power circuit 125 A (at ≤60 °C) at ≤ 690 V AC AC-1 for power circuit"
+        },
+        {
+          "label": "[Us] Control circuit voltage （AC 50/60Hz）",
+          "value": "Voltage (V): 24 36 42 48 110 115 127 220 230 240 380 400 415"
+        },
+        {
+          "label": "Motor power hp",
+          "value": "10 hp at 110…120 V AC 50/60 Hz for 1 phase motors 15 hp at 200…208 V AC 50/60 Hz for 1 phase motors 20 hp at 220…240 V AC 50/60 Hz for 1 phase motors 30 hp at 200…208 V AC 50/60 Hz for 3 phases motors 30 hp at 220…240 V AC 50/60 Hz for 3 phases motors 75 hp at 440…480 V AC 50/60 Hz for 3 phases motors 75 hp at 550…600 V AC 50/60 Hz for 3 phases motors"
+        },
+        {
+          "label": "Pole contact composition",
+          "value": "3 NO"
+        },
+        {
+          "label": "[Ith] Conventional free air thermal current",
+          "value": "125 A (at ≤60 °C) for power circuit 10 A (at ≤60 °C) for signalling circuit"
+        },
+        {
+          "label": "[Icw] Rated short-time withstand current",
+          "value": "800 A ≤40 °C - 10 s for power circuit 1100 A ≤40 °C - 1 s for power circuit 135 A ≤40 °C - 10 min for power circuit 400 A ≤40 °C - 1 min for power circuit"
+        },
+        {
+          "label": "Associated fuse rating",
+          "value": "10 A gG for signalling circuit conforming to IEC 60947-5-1 125 A gG at ≤ 690 V coordination type 2 for power circuit"
+        },
+        {
+          "label": "Average impedance",
+          "value": "0.8 mΩ - Ith 50 Hz for power circuit"
+        },
+        {
+          "label": "[Ui] Rated insulation voltage",
+          "value": "Power circuit: 690 V conforming to IEC 60947-4-1 Power circuit: 600 V UL Certified Signalling circuit: 690 V conforming to IEC 60947-5-1 Signalling circuit: 600 V UL Certified"
+        }
+      ],
+      "related": [
+        "HFUC5-09C",
+        "HFUC5-115C",
+        "HFUC5-12C",
+        "HFUC5-150C",
+        "HFUC5-170C",
+        "HFUC5-18C"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/hfuc5-95c.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/HFUC5-95C",
+      "category": "control-gear",
+      "seriesSlug": "hfuc5-c",
+      "shortDescription": "Industry IEC Contactors HFUC5-C — model HFUC5-95C, 95A (AC-3)."
+    },
+    {
+      "id": "ueb6-40",
+      "slug": "ueb6-40",
+      "name": "UEB6-40",
+      "model": "UEB6-40",
+      "series": "UEB6",
+      "seriesSlug": "ueb6",
+      "type": "MCB",
+      "range": "6A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB6 — model UEB6-40, 6A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Innovative bi-metal adjustment process with excellent overload protection stability",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "High quality electrical performance",
+        "Excellent current limiting performance, with the current limiting level reaching the standard level 3",
+        "Electrical life up to 10000 cycles"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB6"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB6-40"
+        },
+        {
+          "label": "Product or Component type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P+N"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "6A、10A、16A、20A、25A、32A、40A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "4500 A Icn at 230 V AC 50/60 Hz conforming to EN/IEC 60898-1 6000 A Icn at 230 V AC 50/60 Hz conforming to EN/IEC 60898-1"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "4500 A 100 % conforming to EN 60898-1 - 230 V AC 50/60 Hz 6000 A 100 % conforming to EN 60898-1 - 230 V AC 50/60 Hz"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "18mm"
+        },
+        {
+          "label": "Depth",
+          "value": "76.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "105g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "20000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …16 mm² rigid Screw clamp terminal (top or bottom) 0.75 …16 mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB6-125",
+        "UEB6-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb6-40.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB6-40",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb6-63",
+      "slug": "ueb6-63",
+      "name": "UEB6-63",
+      "model": "UEB6-63",
+      "series": "UEB6",
+      "seriesSlug": "ueb6",
+      "type": "MCB",
+      "range": "1A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB6 — model UEB6-63, 1A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Can accept wiring torques higher than national standards, making connections more reliable",
+        "Integrated bi-metal mechanism design and innovative calibration process with reliable overload protection",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "High quality electrical performance",
+        "Excellent current limiting performance, with the current limiting level reaching the standard level 3",
+        "Electrical life up to 10000 cycles"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB6"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB6-63"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、1P+N、2P、3P、3P+N、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1(1P+N)、2(2P)、3(3P)、3(3P+N)、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "1A、2A、3A、4A、6A、10A、13A、15A、16A、20A、25A、32A、40A 50A、63A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "4500 A Icn 6000 A Icn 10000A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "4500 A 100 % conforming to EN 60898-1 6000 A 100 % conforming to EN 60898-1 7500 A 100 % conforming to EN 60898-1"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:17.6 mm、1P+N/2P:35.2 mm、3P:52.8 mm、3P+N/4P:70.4 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "75.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:94.5g、1P+N:208 g 、2P:210.5 g 、3P:281.5 g 、3p+N:378.5 g 、4P:420.5 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "20000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …35 mm² rigid Screw clamp terminal (top or bottom) 0.75 …25mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB6-125",
+        "UEB6-40"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb6-63.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB6-63",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb6-125",
+      "slug": "ueb6-125",
+      "name": "UEB6-125",
+      "model": "UEB6-125",
+      "series": "UEB6",
+      "seriesSlug": "ueb6",
+      "type": "MCB",
+      "range": "63A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB6 — model UEB6-125, 63A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Can accept wiring torques higher than national standards, making connections more reliable",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "Modular structures for free combination",
+        "High quality electrical performance",
+        "High breaking capacity and long electrical endurance",
+        "Short circuit breaking capacity of 15kA"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB6"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB6-125"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、2P、3P、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1、2(2P)、3(3P)、3、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "63A、80A、100A、125A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "15000A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "7500A 100 % conforming to EN 60898-1"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "90mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:27 mm、2P:54 mm、3P:81 mm、4P:108 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "82mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:220g、2P:445 g 、3P:670 g 、4P:895 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "63A/80A:10000 cycles 100A:5000 cycles 125A:4000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …50 mm²"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "16mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB6-40",
+        "UEB6-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb6-125.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB6-125",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb6-63md",
+      "slug": "ueb6-63md",
+      "name": "UEB6-63MD",
+      "model": "UEB6-63MD",
+      "series": "UEB6",
+      "seriesSlug": "ueb6",
+      "type": "MCB",
+      "range": "1A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB6 — model UEB6-63MD, 1A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Can accept wiring torques higher than national standards, making connections more reliable",
+        "Integrated bi-metal mechanism design and innovative calibration process with reliable overload protection",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "High quality electrical performance",
+        "Excellent current limiting performance, with the current limiting level reaching the standard level 3",
+        "Electrical life up to 10000 cycles"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB6"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB6-63"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、1P+N、2P、3P、3P+N、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1(1P+N)、2(2P)、3(3P)、3(3P+N)、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "1A、2A、3A、4A、6A、10A、13A、15A、16A、20A、25A、32A、40A 50A、63A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "4500 A Icn 6000 A Icn 10000A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "4500 A 100 % conforming to EN 60898-1 6000 A 100 % conforming to EN 60898-1 7500 A 100 % conforming to EN 60898-1"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:17.6 mm、1P+N/2P:35.2 mm、3P:52.8 mm、3P+N/4P:70.4 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "75.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:94.5g、1P+N:208 g 、2P:210.5 g 、3P:281.5 g 、3p+N:378.5 g 、4P:420.5 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "20000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …35 mm² rigid Screw clamp terminal (top or bottom) 0.75 …25mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb6-63md.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB6-63MD",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb3-40",
+      "slug": "ueb3-40",
+      "name": "UEB3-40",
+      "model": "UEB3-40",
+      "series": "UEB3",
+      "seriesSlug": "ueb3",
+      "type": "MCB",
+      "range": "6A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB3 — model UEB3-40, 6A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB3"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB3-40"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P+N"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "6A、10A、16A、20A、25A、32A、40A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "4500 A Icn at 230 V AC 50/60 Hz conforming to EN/IEC 60898-1 6000 A Icn at 230 V AC 50/60 Hz conforming to EN/IEC 60898-1"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "4500 A 100 % conforming to EN 60898-1 - 230 V AC 50/60 Hz 6000 A 100 % conforming to EN 60898-1 - 230 V AC 50/60 Hz"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "18mm"
+        },
+        {
+          "label": "Depth",
+          "value": "76.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "105g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …16 mm² rigid Screw clamp terminal (top or bottom) 0.75 …16 mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB3-125",
+        "UEB3-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb3-40.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB3-40",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb3-63",
+      "slug": "ueb3-63",
+      "name": "UEB3-63",
+      "model": "UEB3-63",
+      "series": "UEB3",
+      "seriesSlug": "ueb3",
+      "type": "MCB",
+      "range": "1A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB3 — model UEB3-63, 1A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "High quality electrical performance",
+        "Equipped with overload and short circuit protection"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB3"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB3-63"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、1P+N、2P、3P、3P+N、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1(1P+N)、2(2P)、3(3P)、3(3P+N)、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "1A、2A、3A、4A、6A、10A、13A、15A、16A、20A、25A、32A、40A、50A、63A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "4500 A Icn 6000 A Icn 10000A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "4500 A 100 % conforming to EN 60898-1 6000 A 100 % conforming to EN 60898-1 7500 A 100 % conforming to EN 60898-1"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:17.6 mm、1P+N/2P:35.2 mm、3P:52.8 mm、3P+N/4P:70.4 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "75.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:94.5g、1P+N:208 g 、2P:210.5 g 、3P:281.5 g 、3p+N:378.5 g 、4P:420.5 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …35 mm² rigid Screw clamp terminal (top or bottom) 0.75 …25mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB3-125",
+        "UEB3-40"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb3-63.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB3-63",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb3-125",
+      "slug": "ueb3-125",
+      "name": "UEB3-125",
+      "model": "UEB3-125",
+      "series": "UEB3",
+      "seriesSlug": "ueb3",
+      "type": "MCB",
+      "range": "63A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB3 — model UEB3-125, 63A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly",
+        "Modular structures for free combination"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB3"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB3-125"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、2P、3P、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1、2(2P)、3(3P)、3、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "63A、80A、100A、125A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "15000A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-1 Category A conforming to IEC 60898-1"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-1 Yes conforming to IEC 60898-1"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60898-1"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50/60Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "3...5In（B）、5...10In（C）、10...20In（D）"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "7500A 100 % conforming to EN 60898-1"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "90mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:27 mm、2P:54 mm、3P:81 mm、4P:108 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "82mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:220g、2P:445 g 、3P:670 g 、4P:895 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "8000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …50 mm²"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "16mm for top or bottom connection"
+        }
+      ],
+      "related": [
+        "UEB3-40",
+        "UEB3-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb3-125.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB3-125",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueb3-63md",
+      "slug": "ueb3-63md",
+      "name": "UEB3-63MD",
+      "model": "UEB3-63MD",
+      "series": "UEB3",
+      "seriesSlug": "ueb3",
+      "type": "MCB",
+      "range": "1A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "MCB UEB3 — model UEB3-63MD, 1A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Withstand wiring torques higher than national standards, making connections more reliable",
+        "Equipped with overload and short circuit protection function"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEB3"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEB3-63MD"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Miniature circuit-breaker"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、2P、3P、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "1(1P)、2(2P)、3(3P)、4(4P)"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "1A、2A、3A、4A、6A、10A、13A、15A、16A、20A、25A、32A、40A 50A、63A"
+        },
+        {
+          "label": "Network Type",
+          "value": "DC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "B, C, K"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "6000 A Icn"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A conforming to EN 60898-2、EN60947-2 Category A conforming to IEC 60898-2、 IEC 60947-2"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to EN 60898-2、EN60947-2 Yes conforming to IEC 60898-2、 IEC 60947-2"
+        },
+        {
+          "label": "Standards",
+          "value": "1P/2P:IEC/EN 60898-2 3P/4P: IEC/EN 60947-2"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "DC"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "1P/2P: B: 4In...7In C: 7In...15In 3P/4P: C: 6.4In...9.6In K: 8In...12In"
+        },
+        {
+          "label": "Rated Service Breaking Capacity [Ics]",
+          "value": "6000 A 100 % conforming to EN 60898-2、EN60947-2"
+        },
+        {
+          "label": "Limitation class",
+          "value": "3 conforming to EN 60898-1 3 conforming to IEC 60898-1"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V AC"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4 kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "Trip indicator"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:17.6 mm、2P:35.2 mm、3P:52.8 mm、4P:70.4 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "75.5mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "1P:94.5g、2P:210.5 g 、3P:281.5 g 、4P:420.5 g"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Screw clamp terminal (top or bottom) 0.75 …35 mm² rigid Screw clamp terminal (top or bottom) 0.75 …25mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "11mm for top or bottom connection"
+        }
+      ],
+      "related": [],
+      "docs": [],
+      "image": "/images/hongfa/products/ueb3-63md.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEB3-63MD",
+      "category": "din-rail"
+    },
+    {
+      "id": "uez3-40",
+      "slug": "uez3-40",
+      "name": "UEZ3-40",
+      "model": "UEZ3-40",
+      "series": "UEZ3",
+      "seriesSlug": "uez3",
+      "type": "Smart MCB",
+      "range": "10A",
+      "description": "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+      "shortDescription": "Smart MCB UEZ3 — model UEZ3-40, 10A.",
+      "features": [
+        "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+        "Miniaturization： The high combination of mechanical release, contact system, arc extinguishing device, DC motor, reduction mechanism, sensor and electronic components makes the product compact in structure and simple in appearance.",
+        "High safety： Overload, overvoltage, under voltage, over power, over temperature and other protection can be provided; short circuit protection adopts mechanical protection, with fast operation and high breaking capacity.",
+        "Intelligentization： Edge computing strategy, circuit important protection local processing execution; remote multi-category information collection, multi-program control, to meet the needs of the Internet of Things.",
+        "High reliability： the operation mechanism adopts efficient and reliable DC motor to provide stable power for breaking and closing, and the positioning system adopts high precision detection switch for accurate positioning and strong anti-interference ability;PCB board adopts anti-interference design to meet EMC requirements.",
+        "Easy installation： Adopt modular design, can be installed on standard 35mm rail; control power and RS485 communication using plug in connection, and a variety of communication wire accessories are optional."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEZ3"
+        },
+        {
+          "label": "Product Name",
+          "value": "Smart miniature circuit-breaker"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit-breaker"
+        },
+        {
+          "label": "Product Model",
+          "value": "UEZ3-40"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、1P+N"
+        },
+        {
+          "label": "Product Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Neutral Wire Position",
+          "value": "Offside"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "10A、16A、20A、25A、32A、40A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Electromagnetic and electronic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "C"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "Ics=Icn=4.5kA"
+        },
+        {
+          "label": "Function",
+          "value": "structure function"
+        },
+        {
+          "label": "Power Supply",
+          "value": "External power supply"
+        },
+        {
+          "label": "Protection Function",
+          "value": "Short circuit protection"
+        },
+        {
+          "label": "Overload protection",
+          "value": "√"
+        },
+        {
+          "label": "Overload setting current protection",
+          "value": "√"
+        },
+        {
+          "label": "Local reclosing function （default off）",
+          "value": "√"
+        },
+        {
+          "label": "Control Functions",
+          "value": "Remote control function"
+        },
+        {
+          "label": "Metering function",
+          "value": "Current metering"
+        },
+        {
+          "label": "Alarm, fault analysis, fault record",
+          "value": "√"
+        },
+        {
+          "label": "Timing",
+          "value": "√"
+        },
+        {
+          "label": "Cost control function",
+          "value": "√"
+        },
+        {
+          "label": "Communication function",
+          "value": "RS485"
+        },
+        {
+          "label": "Life monitoring",
+          "value": "√"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50Hz"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "230 V AC 50Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "5…10 x In"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "Height",
+          "value": "71mm"
+        },
+        {
+          "label": "Width",
+          "value": "18mm"
+        },
+        {
+          "label": "Depth",
+          "value": "90mm"
+        }
+      ],
+      "related": [
+        "UEZ3-125",
+        "UEZ3-63",
+        "UEZ3D-125",
+        "UEZ3L-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uez3-40.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEZ3-40",
+      "category": "din-rail"
+    },
+    {
+      "id": "uez3-63",
+      "slug": "uez3-63",
+      "name": "UEZ3-63",
+      "model": "UEZ3-63",
+      "series": "UEZ3",
+      "seriesSlug": "uez3",
+      "type": "Smart MCB",
+      "range": "6A",
+      "description": "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+      "shortDescription": "Smart MCB UEZ3 — model UEZ3-63, 6A.",
+      "features": [
+        "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+        "Miniaturization： The high combination of mechanical release, contact system, arc extinguishing device, DC motor, reduction mechanism, sensor and electronic components makes the product compact in structure and simple in appearance.",
+        "High safety： Overload, overvoltage, under voltage, over power, over temperature and other protection can be provided; short circuit protection adopts mechanical protection, with fast operation and high breaking capacity.",
+        "Intelligentization： Edge computing strategy, circuit important protection local processing execution; remote multi-category information collection, multi-program control, to meet the needs of the Internet of Things.",
+        "High reliability： the operation mechanism adopts efficient and reliable DC motor to provide stable power for breaking and closing, and the positioning system adopts high precision detection switch for accurate positioning and strong anti-interference ability;PCB board adopts anti-interference design to meet EMC requirements.",
+        "Easy installation： Adopt modular design, can be installed on standard 35mm rail; control power and RS485 communication using plug in connection, and a variety of communication wire accessories are optional."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEZ3"
+        },
+        {
+          "label": "Product Name",
+          "value": "Smart miniature circuit-breaker"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit-breaker"
+        },
+        {
+          "label": "Product Model",
+          "value": "UEZ3-63"
+        },
+        {
+          "label": "Poles Description",
+          "value": "Poles Range"
+        },
+        {
+          "label": "M",
+          "value": "√"
+        },
+        {
+          "label": "C",
+          "value": "√"
+        },
+        {
+          "label": "Product Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "6A…63A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "M: electromagnetic and electronic C: thermo-magnetic R-P: thermo-magnetic Y-P: thermo-magnetic C10-P: thermo-magnetic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "C/D"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "Ics=Icn=6kA"
+        },
+        {
+          "label": "Function",
+          "value": "structure function"
+        },
+        {
+          "label": "Power Supply",
+          "value": "External power supply"
+        },
+        {
+          "label": "Protection Function",
+          "value": "Short-circuit protection"
+        },
+        {
+          "label": "Overload protection",
+          "value": "√"
+        },
+        {
+          "label": "Overload setting current protection",
+          "value": "√"
+        },
+        {
+          "label": "Local reclosing function",
+          "value": "√(default off)"
+        },
+        {
+          "label": "Control Functions",
+          "value": "Remote control function"
+        },
+        {
+          "label": "Metering function",
+          "value": "Current metering"
+        },
+        {
+          "label": "Voltage measurement (power, electricity)",
+          "value": "√"
+        },
+        {
+          "label": "Alarm, fault analysis, fault record",
+          "value": "√"
+        },
+        {
+          "label": "Timing",
+          "value": "√"
+        },
+        {
+          "label": "Cost control function",
+          "value": "√"
+        },
+        {
+          "label": "Communication function",
+          "value": "RS485"
+        },
+        {
+          "label": "Life monitoring",
+          "value": "√"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50Hz"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "1P: 230/400 V AC 50Hz 1P+N: 230 V AC 50Hz 3P/3P+N: 400 V AC 50Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "C: 5…10 x In, D: 10…20 x In"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "Height",
+          "value": "71mm"
+        }
+      ],
+      "related": [
+        "UEZ3-125",
+        "UEZ3-40",
+        "UEZ3D-125",
+        "UEZ3L-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uez3-63.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEZ3-63",
+      "category": "din-rail"
+    },
+    {
+      "id": "uez3-125",
+      "slug": "uez3-125",
+      "name": "UEZ3-125",
+      "model": "UEZ3-125",
+      "series": "UEZ3",
+      "seriesSlug": "uez3",
+      "type": "Smart MCB",
+      "range": "63A",
+      "description": "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+      "shortDescription": "Smart MCB UEZ3 — model UEZ3-125, 63A.",
+      "features": [
+        "Multi-function： Overload protection, short-circuit protection, remote control, electric parameter measurement, over & under voltage auto reclosing, fault analysis, fault alarm, RS485 communication multiple functions.",
+        "Miniaturization： The high combination of mechanical release, contact system, arc extinguishing device, DC motor, reduction mechanism, sensor and electronic components makes the product compact in structure and simple in appearance.",
+        "High safety： Overload, overvoltage, under voltage, over power, over temperature and other protection can be provided; short circuit protection adopts mechanical protection, with fast operation and high breaking capacity.",
+        "Intelligentization： Edge computing strategy, circuit important protection local processing execution; remote multi-category information collection, multi-program control, to meet the needs of the Internet of Things.",
+        "High reliability： the operation mechanism adopts efficient and reliable DC motor to provide stable power for breaking and closing, and the positioning system adopts high precision detection switch for accurate positioning and strong anti-interference ability;PCB board adopts anti-interference design to meet EMC requirements.",
+        "Easy installation： Adopt modular design, can be installed on standard 35mm rail; control power and RS485 communication using plug in connection, and a variety of communication wire accessories are optional."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEZ3"
+        },
+        {
+          "label": "Product Name",
+          "value": "Smart miniature circuit-breaker"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit-breaker"
+        },
+        {
+          "label": "Product Model",
+          "value": "UEZ3-125"
+        },
+        {
+          "label": "Poles Description",
+          "value": "2P、3P、4P"
+        },
+        {
+          "label": "Product Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "63A…100A"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "M: electromagnetic and electronic"
+        },
+        {
+          "label": "Curve Code",
+          "value": "C"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "Ics=Icn=6kA"
+        },
+        {
+          "label": "Function",
+          "value": "structure function"
+        },
+        {
+          "label": "Power Supply",
+          "value": "External power supply"
+        },
+        {
+          "label": "Protection Function",
+          "value": "Short circuit protection"
+        },
+        {
+          "label": "Overload protection",
+          "value": "√"
+        },
+        {
+          "label": "Overload setting current protection",
+          "value": "√"
+        },
+        {
+          "label": "Overvoltage and undervoltage auto reclosing",
+          "value": "√"
+        },
+        {
+          "label": "Control Functions",
+          "value": "Remote control function"
+        },
+        {
+          "label": "Metering function",
+          "value": "Current metering"
+        },
+        {
+          "label": "Voltage measurement (power, electricity)",
+          "value": "√"
+        },
+        {
+          "label": "Alarm, fault analysis, fault record",
+          "value": "√"
+        },
+        {
+          "label": "Timing",
+          "value": "√"
+        },
+        {
+          "label": "Cost control function",
+          "value": "√"
+        },
+        {
+          "label": "Communication function",
+          "value": "RS485"
+        },
+        {
+          "label": "Life monitoring",
+          "value": "√"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50Hz"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "1P: 230 V AC 50Hz 3P: 400 V AC 50Hz 4P: 400 V AC 50Hz"
+        },
+        {
+          "label": "Magnetic Tripping Limit",
+          "value": "7…15 x In"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "500 V"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "4kV"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "Height",
+          "value": "71mm"
+        },
+        {
+          "label": "Width",
+          "value": "2P: 53.2mm 3P: 70.8mm 4P: 88.4mm"
+        },
+        {
+          "label": "Depth",
+          "value": "90mm"
+        }
+      ],
+      "related": [
+        "UEZ3-40",
+        "UEZ3-63",
+        "UEZ3D-125",
+        "UEZ3L-63"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uez3-125.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEZ3-125",
+      "category": "din-rail"
+    },
+    {
+      "id": "hfuz5-63hd",
+      "slug": "hfuz5-63hd",
+      "name": "HFUZ5-63HD",
+      "model": "HFUZ5-63HD",
+      "series": "HFUZ5",
+      "seriesSlug": "hfuz5",
+      "type": "Smart MCB 5G",
+      "range": "16A",
+      "description": "Multi-function : It features multiple functions including overload protection, short-circuit protection, remote control, electrical parameter metering, overvoltage and undervoltage protection with self-recovery, and RS485 communication.",
+      "shortDescription": "Smart MCB 5G HFUZ5 — model HFUZ5-63HD, 16A.",
+      "features": [
+        "Multi-function : It features multiple functions including overload protection, short-circuit protection, remote control, electrical parameter metering, overvoltage and undervoltage protection with self-recovery, and RS485 communication.",
+        "Miniaturization : The high integration of mechanical structure, DC motor, reduction mechanism, sensor, and electronic components achieves a miniaturized design with a height of 1U for the whole machine.",
+        "High Safety : Protections such as overload, overvoltage, undervoltage, over-power, and over-temperature can be set, providing precise protection. The short-circuit protection adopts mechanical protection, with fast action and high breaking capacity.",
+        "Hot-pluggable: The product supports hot-plugging, allowing installation and replacement of the circuit breaker without power interruption of the main power supply.",
+        "High Reliability: The operating mechanism adopts an efficient and reliable DC motor to provide stable power for switching on and off. The positioning system uses a high-precision detection switch, ensuring accurate positioning and strong anti-interference ability. The circuit board adopts anti-interference design to meet EMC requirements.",
+        "Easy Installation: Easy installation adopts the design scheme of busbar plugging, enabling the quick installation of the main circuit and communication interface.",
+        "Authorization Unlocking: The product has a mechanical locking function, and the contact can be conducted only after obtaining permission. It can realize functions such as authorized renting and remote forced power-off."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "HFUZ5"
+        },
+        {
+          "label": "Product Name",
+          "value": "Smart Circuit Breaker"
+        },
+        {
+          "label": "Product Type",
+          "value": "Circuit Breaker"
+        },
+        {
+          "label": "Product Model",
+          "value": "HFUZ5-63HD"
+        },
+        {
+          "label": "Pole Number",
+          "value": "1P+N (Negative pole on/off, positive pole normally on)"
+        },
+        {
+          "label": "Product Application",
+          "value": "Distribution Protection"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "16A, 32A, 63A"
+        },
+        {
+          "label": "Power Grid Type",
+          "value": "DC"
+        },
+        {
+          "label": "Release Type",
+          "value": "Electronic and Electromagnetic"
+        },
+        {
+          "label": "Tripping Curve",
+          "value": "11In±20%"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "Ics=7.5kA Icu=10kA"
+        },
+        {
+          "label": "Functions",
+          "value": "Functions"
+        },
+        {
+          "label": "Protection Functions",
+          "value": "Short-circuit protection"
+        },
+        {
+          "label": "Overload protection",
+          "value": "√ Setting range3A~In"
+        },
+        {
+          "label": "Overvoltage protection",
+          "value": "√ Setting range：50Vd.c.~80Vd.c.,default value58Vd.c."
+        },
+        {
+          "label": "Undervoltage protection",
+          "value": "Undervoltage protection: Default off Setting range ：35Vd.c.~47Vd.c., default value 43Vd."
+        },
+        {
+          "label": "Reverse connection protection",
+          "value": "√"
+        },
+        {
+          "label": "Alarms",
+          "value": "Undervoltage alarm"
+        },
+        {
+          "label": "Overvoltage alarm",
+          "value": "√"
+        },
+        {
+          "label": "Overcurrent alarm",
+          "value": "√"
+        },
+        {
+          "label": "Closing failure alarm",
+          "value": "√"
+        },
+        {
+          "label": "Opening failure alarm",
+          "value": "√"
+        },
+        {
+          "label": "Controller fault alarm",
+          "value": "√"
+        },
+        {
+          "label": "Control Functions",
+          "value": "Remote control of closing and opening"
+        },
+        {
+          "label": "Authorization unlock",
+          "value": "√"
+        },
+        {
+          "label": "Metering Functions",
+          "value": "Current metering"
+        },
+        {
+          "label": "Voltage metering",
+          "value": "1%"
+        },
+        {
+          "label": "Power metering:",
+          "value": "1%"
+        },
+        {
+          "label": "Electricity metering",
+          "value": "Class 1"
+        },
+        {
+          "label": "Communication Function",
+          "value": "RS485"
+        },
+        {
+          "label": "Others",
+          "value": "Switch status identification"
+        },
+        {
+          "label": "Address identification",
+          "value": "√ Address range ：1~118"
+        },
+        {
+          "label": "switch rated current upload",
+          "value": "√"
+        },
+        {
+          "label": "Lightning surge",
+          "value": "An external lightning arrester with a nominal 20kA and Up not exceeding 600V can withstand a common-mode impulse current of 15kA (8/20μs) and a differential-mode impulse current of 11kA (8/20μs)"
+        },
+        {
+          "label": "Rated Operating Voltage [Ue]",
+          "value": "60V DC/80V DC"
+        }
+      ],
+      "related": [
+        "HFUZ5-125HD"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/hfuz5-63hd.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/HFUZ5-63HD",
+      "category": "din-rail"
+    },
+    {
+      "id": "hfuz5-125hd",
+      "slug": "hfuz5-125hd",
+      "name": "HFUZ5-125HD",
+      "model": "HFUZ5-125HD",
+      "series": "HFUZ5",
+      "seriesSlug": "hfuz5",
+      "type": "Smart MCB 5G",
+      "range": "80A",
+      "description": "Multi-function : It features multiple functions including overload protection, short-circuit protection, remote control, electrical parameter metering, overvoltage and undervoltage protection with self-recovery, and RS485 communication.",
+      "shortDescription": "Smart MCB 5G HFUZ5 — model HFUZ5-125HD, 80A.",
+      "features": [
+        "Multi-function : It features multiple functions including overload protection, short-circuit protection, remote control, electrical parameter metering, overvoltage and undervoltage protection with self-recovery, and RS485 communication.",
+        "Miniaturization : The high integration of mechanical structure, DC motor, reduction mechanism, sensor, and electronic components achieves a miniaturized design with a height of 1U for the whole machine.",
+        "High Safety : Protections such as overload, overvoltage, undervoltage, over-power, and over-temperature can be set, providing precise protection. The short-circuit protection adopts mechanical protection, with fast action and high breaking capacity.",
+        "Hot-pluggable: The product supports hot-plugging, allowing installation and replacement of the circuit breaker without power interruption of the main power supply.",
+        "High Reliability: The operating mechanism adopts an efficient and reliable DC motor to provide stable power for switching on and off. The positioning system uses a high-precision detection switch, ensuring accurate positioning and strong anti-interference ability. The circuit board adopts anti-interference design to meet EMC requirements.",
+        "Easy Installation: Easy installation adopts the design scheme of busbar plugging, enabling the quick installation of the main circuit and communication interface.",
+        "Authorization Unlocking: The product has a mechanical locking function, and the contact can be conducted only after obtaining permission. It can realize functions such as authorized renting and remote forced power-off."
+      ],
+      "specs": [
+        {
+          "label": "Product Series",
+          "value": "HFUZ5"
+        },
+        {
+          "label": "Product Name",
+          "value": "Smart Circuit Breaker"
+        },
+        {
+          "label": "Product Type",
+          "value": "Circuit Breaker"
+        },
+        {
+          "label": "Product Model",
+          "value": "HFUZ5-125HD"
+        },
+        {
+          "label": "Pole Number",
+          "value": "1P+N (Negative pole on/off, positive pole normally on)"
+        },
+        {
+          "label": "Product Application",
+          "value": "Distribution Protection"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "80A、100A、125A"
+        },
+        {
+          "label": "Power Grid Type",
+          "value": "DC"
+        },
+        {
+          "label": "Release Type",
+          "value": "Electronic and Electromagnetic"
+        },
+        {
+          "label": "Tripping Curve",
+          "value": "11In±20%"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "Ics=7.5kA Icu=10kA"
+        },
+        {
+          "label": "Functions",
+          "value": "Functions"
+        },
+        {
+          "label": "Protection Functions",
+          "value": "Short-circuit protection"
+        },
+        {
+          "label": "Overload protection",
+          "value": "√ Setting range 3A~In"
+        },
+        {
+          "label": "Overvoltage protection",
+          "value": "√ Setting range：50Vd.c.~80Vd.c.,default value58Vd.c."
+        },
+        {
+          "label": "Undervoltage protection",
+          "value": "Undervoltage protection: Default off Setting range ：35Vd.c.~47Vd.c., default value 43Vd."
+        },
+        {
+          "label": "Reverse connection protection",
+          "value": "√"
+        },
+        {
+          "label": "报警",
+          "value": "Undervoltage alarm"
+        },
+        {
+          "label": "Overvoltage alarm",
+          "value": "√"
+        },
+        {
+          "label": "Overcurrent alarm",
+          "value": "√"
+        },
+        {
+          "label": "Closing failure alarm",
+          "value": "√"
+        },
+        {
+          "label": "Opening failure alarm",
+          "value": "√"
+        },
+        {
+          "label": "Reverse connection alarm",
+          "value": "√"
+        },
+        {
+          "label": "Controller fault alarm",
+          "value": "√"
+        },
+        {
+          "label": "Control Functions",
+          "value": "Remote control of closing and opening"
+        },
+        {
+          "label": "Authorization unlock",
+          "value": "√"
+        },
+        {
+          "label": "Metering Functions",
+          "value": "Current metering"
+        },
+        {
+          "label": "Voltage metering",
+          "value": "1%"
+        },
+        {
+          "label": "Power metering:",
+          "value": "1%"
+        },
+        {
+          "label": "Electricity metering",
+          "value": "Class 1"
+        },
+        {
+          "label": "Communication Function",
+          "value": "RS485"
+        },
+        {
+          "label": "Others",
+          "value": "Switch status identification"
+        },
+        {
+          "label": "Address identification",
+          "value": "√ Address range ：1~118"
+        },
+        {
+          "label": "switch rated current upload",
+          "value": "√"
+        },
+        {
+          "label": "Lightning surge",
+          "value": "An external lightning arrester with a nominal 20kA and Up not exceeding 600V can withstand a common-mode impulse current of 15kA (8/20μs) and a differential-mode impulse current of 11kA (8/20μs)"
+        }
+      ],
+      "related": [
+        "HFUZ5-63HD"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/hfuz5-125hd.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/HFUZ5-125HD",
+      "category": "din-rail"
+    },
+    {
+      "id": "ueg6-125",
+      "slug": "ueg6-125",
+      "name": "UEG6-125",
+      "model": "UEG6-125",
+      "series": "UEG6",
+      "seriesSlug": "ueg6",
+      "type": "Switch Disconnector",
+      "range": "32A",
+      "description": "Provide safe use and protection",
+      "shortDescription": "Switch Disconnector UEG6 — model UEG6-125, 32A.",
+      "features": [
+        "Provide safe use and protection",
+        "Red and green indicating window to indicate the opening and closing status of the contact",
+        "Level 2 electric shock protection for safer operation",
+        "Rated insulation voltage up to 1000V, excellent insulation strength",
+        "Convenient installation",
+        "Dual stable snap-on design for easy installation and disassembly"
+      ],
+      "specs": [
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Range",
+          "value": "UEG6"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEG6-125"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Switch disconnector"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "/"
+        },
+        {
+          "label": "Poles Description",
+          "value": "1P、2P、3P、4P"
+        },
+        {
+          "label": "Number of Protected Poles",
+          "value": "NO"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "AC-22A"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes"
+        },
+        {
+          "label": "Rated Operational Current [Ie]",
+          "value": "32A、40A、50A、 63A、 80A、100A、125A"
+        },
+        {
+          "label": "Rated Operational Voltage [Ue]",
+          "value": "230 V AC 50/60 Hz（1P）； 400 V AC 50/60 Hz（2P、3P、4P）"
+        },
+        {
+          "label": "Rated Short-Circuit Making Capacity [Icm]",
+          "value": "20In switch-disconnector alone"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current Icw]",
+          "value": "12In/1s"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "1000 V AC 50/60 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Control Type",
+          "value": "Toggle"
+        },
+        {
+          "label": "Local Signalling",
+          "value": "ON/OFF indication"
+        },
+        {
+          "label": "Contact Position Indicator",
+          "value": "Yes"
+        },
+        {
+          "label": "Mounting Mode",
+          "value": "Fixed"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "DIN rail"
+        },
+        {
+          "label": "Comb Busbar and Distribution Block Compatibility",
+          "value": "NO"
+        },
+        {
+          "label": "9 mm Pitches",
+          "value": "/"
+        },
+        {
+          "label": "Height",
+          "value": "80mm"
+        },
+        {
+          "label": "Width",
+          "value": "1P:17.6 mm、2P:35.2 mm、3P:52.8 mm、4P:70.4 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "75.5mm"
+        },
+        {
+          "label": "Colour",
+          "value": "White"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "15000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "5000 cycles(≤100A) 2000 cycles(125A)"
+        },
+        {
+          "label": "Connections - Terminals",
+          "value": "Double terminal (top or bottom) 4…50mm² rigid Double terminal (top or bottom) 4…35 mm² flexible"
+        },
+        {
+          "label": "Wire Stripping Length",
+          "value": "14.5 mm for top or bottom connection"
+        },
+        {
+          "label": "Tightening Torque",
+          "value": "3.5 N.m top or bottom"
+        },
+        {
+          "label": "Standards",
+          "value": "EN 60947-3 IEC 60947-3"
+        },
+        {
+          "label": "IP Degree of Protection",
+          "value": "IP20 conforming to IEC 60529 IP20 conforming to EN 60529"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3"
+        },
+        {
+          "label": "Tropicalisation",
+          "value": "2"
+        }
+      ],
+      "related": [],
+      "docs": [],
+      "image": "/images/hongfa/products/ueg6-125.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEG6-125",
+      "category": "din-rail"
+    },
+    {
+      "id": "uew6-1600",
+      "slug": "uew6-1600",
+      "name": "UEW6-1600",
+      "model": "UEW6-1600",
+      "series": "UEW6",
+      "seriesSlug": "uew6",
+      "type": "Air Circuit Breaker (ACB)",
+      "range": "200A",
+      "description": "Rated AC current: 200A～1600A",
+      "shortDescription": "Air Circuit Breaker (ACB) UEW6 — model UEW6-1600, 200A.",
+      "features": [
+        "Rated AC current: 200A～1600A",
+        "Short circuit breaking capacity: 25kA～65kA",
+        "Maximum rated operational voltage AC800V",
+        "3 poles and 4 poles are available",
+        "Draw out and fixed type",
+        "Can be connected in reverse direction",
+        "Various trip units available, providing different functions, with comprehensive protection",
+        "With isolation function",
+        "Extensive environmental adaptability, which can meet the requirements of 5000m altitude and - 40 ℃"
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEW6"
+        },
+        {
+          "label": "Product Name",
+          "value": "Circuit breaker frame"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEW6-1600"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Control Unit",
+          "value": "AT2、AT4、AT5、BT2、BT5"
+        },
+        {
+          "label": "Line Rated Current",
+          "value": "200A、400A、630A、800A、1000A、1250A、1600A"
+        },
+        {
+          "label": "Performance Type",
+          "value": "M 、H"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400V、690V、800V AC 50/60 Hz"
+        },
+        {
+          "label": "Selectivity Category",
+          "value": "Category B"
+        },
+        {
+          "label": "Mounting Mode",
+          "value": "Fixed Drawout"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "AC400V M:50kA H:65 kA AC690V M:25kA H:35kA"
+        },
+        {
+          "label": "Rated Service Breaking Capacity[Ics]",
+          "value": "AC400V M:50kA H:55kA AC690V M:25kA H:35kA"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current [Icw]",
+          "value": "AC400V M:42kA/0.5s H:42kA/1s AC690V M:25kA/0.5s H:35kA/1s"
+        },
+        {
+          "label": "Rated Short-Circuit Making Capacity[Icm]",
+          "value": "AC400V M:105kA H:143kA AC690V M:52.5kA H:73.5kA"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "1000 V AC 50/60 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "12 kV"
+        },
+        {
+          "label": "Power Dissipation in W",
+          "value": "Installation type Rated current"
+        },
+        {
+          "label": "200A",
+          "value": "4.8W"
+        },
+        {
+          "label": "400A",
+          "value": "19.2W"
+        },
+        {
+          "label": "630A",
+          "value": "47.6W"
+        },
+        {
+          "label": "800A",
+          "value": "76.8W"
+        },
+        {
+          "label": "1000A",
+          "value": "120W"
+        },
+        {
+          "label": "1250A",
+          "value": "156.2W"
+        },
+        {
+          "label": "1600A",
+          "value": "256W"
+        },
+        {
+          "label": "Maximum Breaking Time",
+          "value": "<30 ms"
+        },
+        {
+          "label": "Maximum Closing Response Time",
+          "value": "70 ms"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Rails Base plate"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "75mm"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "15000 Without maintenance 30000 With maintenance"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "AC400V 8000 AC690V 3000 AC800V 2400"
+        },
+        {
+          "label": "Height",
+          "value": "Fixed 3P 320mm Fixed 4P 320mm Drawout 3P 353mm Drawout 4P 353mm"
+        },
+        {
+          "label": "Width",
+          "value": "Fixed 3P 263mm Fixed 4P 338mm Drawout 3P 317mm Drawout 4P 392mm"
+        },
+        {
+          "label": "Depth",
+          "value": "Fixed 3P 224mm Fixed 4P 224mm Drawout 3P 304mm Drawout 4P 304mm"
+        }
+      ],
+      "related": [
+        "UEW6-2000",
+        "UEW6-4000"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uew6-1600.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEW6-1600",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uew6-2000",
+      "slug": "uew6-2000",
+      "name": "UEW6-2000",
+      "model": "UEW6-2000",
+      "series": "UEW6",
+      "seriesSlug": "uew6",
+      "type": "Air Circuit Breaker (ACB)",
+      "range": "630A",
+      "description": "Rated AC current:630A～2000A",
+      "shortDescription": "Air Circuit Breaker (ACB) UEW6 — model UEW6-2000, 630A.",
+      "features": [
+        "Rated AC current:630A～2000A",
+        "Short circuit breaking capacity: 40kA～85kA",
+        "Maximum rated operational voltage AC800V",
+        "3 poles and 4 poles are available",
+        "Draw out and fixed type",
+        "Can be connected in reverse direction",
+        "Various trip units available, providing different functions, with comprehensive protection",
+        "With isolation function",
+        "Extensive environmental adaptability, which can meet the requirements of 5000m altitude and - 40 ℃"
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEW6"
+        },
+        {
+          "label": "Product Name",
+          "value": "Circuit breaker frame"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEW6-2000"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Control Unit",
+          "value": "2M、2H、3M、3H"
+        },
+        {
+          "label": "Line Rated Current",
+          "value": "630A、800A、1000A、1250A、1600A、2000A"
+        },
+        {
+          "label": "Performance Type",
+          "value": "M 、H"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400V、690V、800V AC 50/60 Hz"
+        },
+        {
+          "label": "Selectivity Category",
+          "value": "Category B"
+        },
+        {
+          "label": "Mounting Mode",
+          "value": "Fixed Drawout"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "AC400V M:80kA H:85 kA AC690V M:50kA H:65kA AC800V M:40kA H: --"
+        },
+        {
+          "label": "Rated Service Breaking Capacity[Ics]",
+          "value": "AC400V M:65kA H:65kA AC690V M:50kA H:65kA AC800V M:40kA H: --"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current [Icw]",
+          "value": "AC400V M:50kA/1s H:65 kA/1s AC690V M:40kA/1s H:65kA/1s AC800V M:40kA/1s H: --"
+        },
+        {
+          "label": "Rated Short-Circuit Making Capacity[Icm]",
+          "value": "AC400V M:176kA H:187 kA AC690V M:105kA H:143kA AC800V M:84kA H: --"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "1000 V AC 50/60 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "12 kV"
+        },
+        {
+          "label": "Power Dissipation in W",
+          "value": "Installation type Rated current"
+        },
+        {
+          "label": "630A",
+          "value": "35.7W"
+        },
+        {
+          "label": "800A",
+          "value": "57.6W"
+        },
+        {
+          "label": "1000A",
+          "value": "60W"
+        },
+        {
+          "label": "1250A",
+          "value": "93.7W"
+        },
+        {
+          "label": "1600A",
+          "value": "153.6W"
+        },
+        {
+          "label": "2000A",
+          "value": "240W"
+        },
+        {
+          "label": "Maximum Breaking Time",
+          "value": "<30 ms"
+        },
+        {
+          "label": "Maximum Closing Response Time",
+          "value": "70 ms"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Rails Base plate"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "95mm"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "15000 Without maintenance 30000 With maintenance"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "AC400V 8000 AC690V 3000 AC800V 2400"
+        },
+        {
+          "label": "Height",
+          "value": "Fixed 3P 398mm Fixed 4P 398mm Drawout 3P 436mm Drawout 4P 436mm"
+        },
+        {
+          "label": "Width",
+          "value": "Fixed 3P 364mm Fixed 4P 459mm Drawout 3P 405mm Drawout 4P 500mm"
+        },
+        {
+          "label": "Depth",
+          "value": "Fixed 3P 296mm Fixed 4P 296mm Drawout 3P 395mm Drawout 4P 395mm"
+        },
+        {
+          "label": "Net Weight（Max）",
+          "value": "Fixed 3P 43.7kg Fixed 4P 56.6kg Drawout 3P 73.8kg Drawout 4P 92.4kg"
+        }
+      ],
+      "related": [
+        "UEW6-1600",
+        "UEW6-4000"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uew6-2000.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEW6-2000",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uew6-4000",
+      "slug": "uew6-4000",
+      "name": "UEW6-4000",
+      "model": "UEW6-4000",
+      "series": "UEW6",
+      "seriesSlug": "uew6",
+      "type": "Air Circuit Breaker (ACB)",
+      "range": "1000A",
+      "description": "Rated AC current:1000A～4000A",
+      "shortDescription": "Air Circuit Breaker (ACB) UEW6 — model UEW6-4000, 1000A.",
+      "features": [
+        "Rated AC current:1000A～4000A",
+        "Short circuit breaking capacity: 50kA～100kA",
+        "Maximum rated operational voltage AC800V",
+        "3 poles and 4 poles are available",
+        "Draw out and fixed type",
+        "Can be connected in reverse direction",
+        "Various trip units available, providing different functions, with comprehensive protection",
+        "With isolation function",
+        "Extensive environmental adaptability, which can meet the requirements of 5000m altitude and - 40 ℃"
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEW6"
+        },
+        {
+          "label": "Product Name",
+          "value": "Circuit breaker frame"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEW6-4000"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Power distribution protection"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Control Unit",
+          "value": "2M、2H、3M、3H"
+        },
+        {
+          "label": "Line Rated Current",
+          "value": "1000A、1250A、1600A、2000A、2500A、3200A、4000A"
+        },
+        {
+          "label": "Performance Type",
+          "value": "M 、H"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400V、690V、800V AC 50/60 Hz"
+        },
+        {
+          "label": "Selectivity Category",
+          "value": "Category B"
+        },
+        {
+          "label": "Mounting Mode",
+          "value": "Fixed Drawout"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "AC400V M:100kA H:100 kA AC690V M:75kA H:85kA AC800V M:50kA H:50 kA"
+        },
+        {
+          "label": "Rated Service Breaking Capacity[Ics]",
+          "value": "AC400V M:100kA H:100 kA AC690V M:75kA H:85kA AC800V M:50kA H:50 kA"
+        },
+        {
+          "label": "Rated Short-Time Withstand Current [Icw]",
+          "value": "AC400V M:85kA/1s H:100 kA/1s AC690V M:75kA/1s H:85kA/1s AC800V M:50kA/1s H:50 kA/1s"
+        },
+        {
+          "label": "Rated Short-Circuit Making Capacity[Icm]",
+          "value": "AC400V M:220kA H:220 kA AC690V M:165kA H:187kA AC800V M:110kA H:110kA"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "1250 V AC 50/60 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "12 kV"
+        },
+        {
+          "label": "Power Dissipation in W",
+          "value": "Installation type Rated current"
+        },
+        {
+          "label": "1000A",
+          "value": "42W"
+        },
+        {
+          "label": "1250A",
+          "value": "65W"
+        },
+        {
+          "label": "1600A",
+          "value": "107W"
+        },
+        {
+          "label": "2000A",
+          "value": "168W"
+        },
+        {
+          "label": "2500A",
+          "value": "263W"
+        },
+        {
+          "label": "3200A",
+          "value": "458W"
+        },
+        {
+          "label": "4000A",
+          "value": "646W"
+        },
+        {
+          "label": "Maximum Breaking Time",
+          "value": "<30 ms"
+        },
+        {
+          "label": "Maximum Closing Response Time",
+          "value": "70 ms"
+        },
+        {
+          "label": "Mounting Support",
+          "value": "Rails Base plate"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "Drawout Horizontal busbar (3600A~4000A) 140 mm Drawout Horizontal busbar (2500A~3200A) 140 mm Drawout Horizontal busbar (1000A~2000A) 115 mm Drawout Vertical busbar (3600A~4000A) 115mm Fixed Horizontal busbar (2900A~4000A) 150 mm Fixed Horizontal busbar (1000A~2500A) 115mm Fixed Vertical busbar (2900A~4000A) 115 mm"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "10000 Without maintenance 20000 With maintenance"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "AC400V 4000 AC690V 2000 AC800V 1000"
+        },
+        {
+          "label": "Height",
+          "value": "Fixed 3P 401mm Fixed 4P 401mm Drawout 3P 446mm Drawout 4P 446mm"
+        },
+        {
+          "label": "Width",
+          "value": "Fixed 3P 426mm Fixed 4P 541mm Drawout 3P 474mm Drawout 4P 589mm"
+        },
+        {
+          "label": "Depth",
+          "value": "Fixed 3P 296.5mm Fixed 4P 296.5mm Drawout 3P 405mm Drawout 4P 405mm"
+        }
+      ],
+      "related": [
+        "UEW6-1600",
+        "UEW6-2000"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uew6-4000.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEW6-4000",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-100",
+      "slug": "uem5-100",
+      "name": "UEM5-100",
+      "model": "UEM5-100",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "16A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-100, 16A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-100"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "16A at 40 °C 20A at 40 °C 25A at 40 °C 32A at 40 °C 40A at 40 °C 50A at 40 °C 63A at 40 °C 80A at 40 °C 100A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：Icu=35kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：Icu=50kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：Icu=70kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2、"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：Ics=25kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：Ics=50kA Ics at 400V AC 50Hz conforming to IEC 60947-2 H：Ics=50kA Ics at 400V AC 50Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "8500 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1500 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "30mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "90mm（3P）/120mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "155mm"
+        },
+        {
+          "label": "Depth",
+          "value": "62mm（L），76mm（M、H）"
+        },
+        {
+          "label": "Net Weight",
+          "value": "L：1.3kg（3P）/1.9kg（4P）；M、H：1.6kg（3P）/2.5kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-160",
+        "UEM5-250",
+        "UEM5-400",
+        "UEM5-630",
+        "UEM5-800"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-100.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-100",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-160",
+      "slug": "uem5-160",
+      "name": "UEM5-160",
+      "model": "UEM5-160",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "100A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-160, 100A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-160"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "100A at 40 °C 125A at 40 °C 140A at 40 °C 160A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：Icu=35kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：Icu=50kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：Icu=70kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2、"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：Ics=25kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：Ics=50kA Ics at 400V AC 50Hz conforming to IEC 60947-2 H：Ics=50kA Ics at 400V AC 50Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm（L、M、H）"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "7000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1000 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "30mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "90mm（3P）/120mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "155mm"
+        },
+        {
+          "label": "Depth",
+          "value": "62mm（L），76mm（M、H）"
+        },
+        {
+          "label": "Net Weight",
+          "value": "L：1.3kg（3P）/1.9kg（4P）；M、H：1.6kg（3P）/2.5kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-100",
+        "UEM5-250",
+        "UEM5-400",
+        "UEM5-630",
+        "UEM5-800"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-160.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-160",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-250",
+      "slug": "uem5-250",
+      "name": "UEM5-250",
+      "model": "UEM5-250",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "100A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-250, 100A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-250"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "100A at 40 °C 125A at 40 °C 140 A at 40 °C 160 A at 40 °C 180 A at 40 °C 200 A at 40 °C 225A at 40 °C 250 A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：35 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：50 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：70 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：25 kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：50 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2 H：50 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "7000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1000 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "35 mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "105mm（3P）、140mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "165mm"
+        },
+        {
+          "label": "Depth",
+          "value": "61mm（L)、85mm（M、H）"
+        },
+        {
+          "label": "Net Weight",
+          "value": "L：1.5kg（3P）/2.1kg（4P）、 M、H：2.0kg（3P）/2.9kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-100",
+        "UEM5-160",
+        "UEM5-400",
+        "UEM5-630",
+        "UEM5-800"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-250.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-250",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-400",
+      "slug": "uem5-400",
+      "name": "UEM5-400",
+      "model": "UEM5-400",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "225A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-400, 225A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-400"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "225 A at 40 °C 250 A at 40 °C 315 A at 40 °C 350 A at 40 °C 400 A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：50 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：65 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：85 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：35 kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：50 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2 H：65 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type Withdrawable type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1000 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "44 mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "140mm（3P）、184mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "257 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "97 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "6.2kg（3P）/8.0 kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947-2"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-100",
+        "UEM5-160",
+        "UEM5-250",
+        "UEM5-630",
+        "UEM5-800"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-400.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-400",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-630",
+      "slug": "uem5-630",
+      "name": "UEM5-630",
+      "model": "UEM5-630",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "400A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-630, 400A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-630"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "400 A at 40 °C 500 A at 40 °C 630 A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：35 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：50 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：70 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：35 kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：50 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2 H：70 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type Withdrawable type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "4000 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "1000 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "44 mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "140mm（3P）、184mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "257 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "97 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "7.5 kg（3P）/9.6 kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947-2"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-100",
+        "UEM5-160",
+        "UEM5-250",
+        "UEM5-400",
+        "UEM5-800"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-630.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-630",
+      "category": "power-distribution"
+    },
+    {
+      "id": "uem5-800",
+      "slug": "uem5-800",
+      "name": "UEM5-800",
+      "model": "UEM5-800",
+      "series": "UEM5",
+      "seriesSlug": "uem5",
+      "type": "MCCB 3–4P",
+      "range": "400A",
+      "description": "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+      "shortDescription": "MCCB 3–4P UEM5 — model UEM5-800, 400A.",
+      "features": [
+        "Insulating parts such as base, cover and shaft are made of thermosetting composite materials, which have high strength and high insulation performance.",
+        "Unique contact design, fast breaking speed and small tripping force.",
+        "Rotating flip structure, easy to install accessories without opening cover.",
+        "Adopt advanced electromagnetic repulsion technology to quickly extinguish the arc."
+      ],
+      "specs": [
+        {
+          "label": "Range",
+          "value": "UEM5"
+        },
+        {
+          "label": "Product Name",
+          "value": "UEM5"
+        },
+        {
+          "label": "Device Short Name",
+          "value": "UEM5-800"
+        },
+        {
+          "label": "Product or Component Type",
+          "value": "Circuit breaker"
+        },
+        {
+          "label": "Device Application",
+          "value": "Distribution"
+        },
+        {
+          "label": "Poles Description",
+          "value": "3P、4P"
+        },
+        {
+          "label": "Rated Current [In]",
+          "value": "400 A at 40 °C 500 A at 40 °C 630 A at 40 °C 700 A at 40 °C 800 A at 40 °C"
+        },
+        {
+          "label": "Rated Operational Voltage[Ue]",
+          "value": "400 V AC"
+        },
+        {
+          "label": "Network Type",
+          "value": "AC"
+        },
+        {
+          "label": "Network Frequency",
+          "value": "50 Hz"
+        },
+        {
+          "label": "Suitability for Isolation",
+          "value": "Yes conforming to IEC 60947-2"
+        },
+        {
+          "label": "Utilisation Category",
+          "value": "Category A"
+        },
+        {
+          "label": "Breaking Capacity",
+          "value": "L、M、H"
+        },
+        {
+          "label": "Rated Ultimate Short-Circuit Breaking Capacity [Icu]",
+          "value": "L：50 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 M：65 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2 H：85 kA Icu at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Rated Service Short-Circuit Breaking Capacity[Ics]",
+          "value": "L：35 kA Ics at 400V AC 50Hz conforming to IEC 60947-2 M：50 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2 H：65 kA Ics at 400 V AC 50 Hz conforming to IEC 60947-2"
+        },
+        {
+          "label": "Arcing Distance (mm)",
+          "value": "≤50mm"
+        },
+        {
+          "label": "Trip Unit Technology",
+          "value": "Thermal-magnetic Magnetic"
+        },
+        {
+          "label": "Control Type",
+          "value": "Operated by handle Operated by motorized operating mechanism Operated by rotary operating mechanism"
+        },
+        {
+          "label": "Circuit Breaker Mounting Mode",
+          "value": "Fixed Plug-in type Withdrawable type"
+        },
+        {
+          "label": "Rated Insulation Voltage [Ui]",
+          "value": "800 V AC 50 Hz"
+        },
+        {
+          "label": "Rated Impulse Withstand Voltage [Uimp]",
+          "value": "8 kV"
+        },
+        {
+          "label": "Mechanical Durability",
+          "value": "2500 cycles"
+        },
+        {
+          "label": "Electrical Durability",
+          "value": "500 cycles at 400 V In"
+        },
+        {
+          "label": "Mounting Position",
+          "value": "Horizontal and vertical flat on the back"
+        },
+        {
+          "label": "Connection Pitch",
+          "value": "70 mm"
+        },
+        {
+          "label": "Instantaneous Protection Pick-up Adjustment Range [Ii]",
+          "value": "10In（For power distribution） 12In（For motor protection）"
+        },
+        {
+          "label": "Electrical Accessory Types",
+          "value": "Alarm contact Shunt release Auxiliary contact Undervoltage release"
+        },
+        {
+          "label": "Width",
+          "value": "210mm（3P）、280mm（4P）"
+        },
+        {
+          "label": "Height",
+          "value": "275 mm"
+        },
+        {
+          "label": "Depth",
+          "value": "104 mm"
+        },
+        {
+          "label": "Net Weight",
+          "value": "9.7 kg（3P）/12.8 kg（4P）"
+        },
+        {
+          "label": "Standards",
+          "value": "EN/IEC 60947-2"
+        },
+        {
+          "label": "Product Certifications",
+          "value": "CCC CB"
+        },
+        {
+          "label": "Pollution Degree",
+          "value": "3 conforming to IEC 60664-1"
+        },
+        {
+          "label": "Ambient Air Temperature for Operation",
+          "value": "-25…70 °C"
+        }
+      ],
+      "related": [
+        "UEM5-100",
+        "UEM5-160",
+        "UEM5-250",
+        "UEM5-400",
+        "UEM5-630"
+      ],
+      "docs": [],
+      "image": "/images/hongfa/products/uem5-800.jpg",
+      "sourceUrl": "https://www.hongfa.com/product/low-voltage-item/UEM5-800",
+      "category": "power-distribution"
+    }
+  ]
+}

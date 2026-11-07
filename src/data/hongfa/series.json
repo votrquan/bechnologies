@@ -1,0 +1,172 @@
+{
+  "updatedAt": "2026-11-07T03:27:11.159Z",
+  "series": [
+    {
+      "id": "uec3-c",
+      "slug": "uec3-c",
+      "name": "UEC3-C",
+      "title": "Industry IEC Contactors UEC3-C",
+      "description": "Contactor AC chất lượng cao — dải 6…38A (AC-3).",
+      "category": "control-gear",
+      "href": "https://www.hongfa.com/product/low-voltage/UEC3-C",
+      "image": "/images/hongfa/products/uec3-06c.jpg",
+      "models": [
+        "uec3-06c",
+        "uec3-09c",
+        "uec3-12c",
+        "uec3-18c",
+        "uec3-25c",
+        "uec3-32c",
+        "uec3-38c"
+      ]
+    },
+    {
+      "id": "uec1-c",
+      "slug": "uec1-c",
+      "name": "UEC1-C",
+      "title": "Industry IEC Contactors UEC1-C",
+      "description": "Contactor AC công nghiệp UEC1-C cho tải trung bình đến lớn.",
+      "category": "control-gear",
+      "href": "https://www.hongfa.com/product/low-voltage/UEC1-C",
+      "image": "/images/hongfa/products/uec1-25c.jpg",
+      "models": [
+        "uec1-25c",
+        "uec1-95c"
+      ]
+    },
+    {
+      "id": "hfuc3-c",
+      "slug": "hfuc3-c",
+      "name": "HFUC3-C",
+      "title": "Industry IEC Contactors HFUC3-C",
+      "description": "Contactor IEC HFUC3-C dải 06…38A.",
+      "category": "control-gear",
+      "href": "https://www.hongfa.com/product/low-voltage/HFUC3-C",
+      "image": "/images/hongfa/products/hfuc3-18c.jpg",
+      "models": [
+        "hfuc3-18c"
+      ]
+    },
+    {
+      "id": "hfuc5-c",
+      "slug": "hfuc5-c",
+      "name": "HFUC5-C",
+      "title": "Industry IEC Contactors HFUC5-C",
+      "description": "Contactor IEC HFUC5 dải dòng rộng.",
+      "category": "control-gear",
+      "href": "https://www.hongfa.com/product/low-voltage/HFUC5-C",
+      "image": "/images/hongfa/products/hfuc5-09c.jpg",
+      "models": [
+        "hfuc5-09c",
+        "hfuc5-95c"
+      ]
+    },
+    {
+      "id": "ueb6",
+      "slug": "ueb6",
+      "name": "UEB6",
+      "title": "MCB UEB6",
+      "description": "MCB UEB6 — bảo vệ quá tải & ngắn mạch trên thanh DIN.",
+      "category": "din-rail",
+      "href": "https://www.hongfa.com/product/low-voltage/UEB6",
+      "image": "/images/hongfa/products/ueb6-40.jpg",
+      "models": [
+        "ueb6-40",
+        "ueb6-63",
+        "ueb6-125",
+        "ueb6-63md"
+      ]
+    },
+    {
+      "id": "ueb3",
+      "slug": "ueb3",
+      "name": "UEB3",
+      "title": "MCB UEB3",
+      "description": "MCB UEB3 cho phân phối dân dụng và thương mại.",
+      "category": "din-rail",
+      "href": "https://www.hongfa.com/product/low-voltage/UEB3",
+      "image": "/images/hongfa/products/ueb3-40.jpg",
+      "models": [
+        "ueb3-40",
+        "ueb3-63",
+        "ueb3-125",
+        "ueb3-63md"
+      ]
+    },
+    {
+      "id": "uez3",
+      "slug": "uez3",
+      "name": "UEZ3",
+      "title": "Smart MCB UEZ3",
+      "description": "Smart MCB UEZ3 — giám sát, điều khiển từ xa, tự đóng lại.",
+      "category": "din-rail",
+      "href": "https://www.hongfa.com/product/low-voltage/UEZ3",
+      "image": "/images/hongfa/products/uez3-40.jpg",
+      "models": [
+        "uez3-40",
+        "uez3-63",
+        "uez3-125"
+      ]
+    },
+    {
+      "id": "hfuz5",
+      "slug": "hfuz5",
+      "name": "HFUZ5",
+      "title": "Smart MCB 5G HFUZ5",
+      "description": "Smart MCB 5G HFUZ5 cho nhà thông minh và quản lý từ xa.",
+      "category": "din-rail",
+      "href": "https://www.hongfa.com/product/low-voltage/HFUZ5",
+      "image": "/images/hongfa/products/hfuz5-63hd.jpg",
+      "models": [
+        "hfuz5-63hd",
+        "hfuz5-125hd"
+      ]
+    },
+    {
+      "id": "ueg6",
+      "slug": "ueg6",
+      "name": "UEG6",
+      "title": "Switch Disconnector UEG6",
+      "description": "Dao cách ly UEG6 lắp thanh DIN.",
+      "category": "din-rail",
+      "href": "https://www.hongfa.com/product/low-voltage/UEG6",
+      "image": "/images/hongfa/products/ueg6-125.jpg",
+      "models": [
+        "ueg6-125"
+      ]
+    },
+    {
+      "id": "uew6",
+      "slug": "uew6",
+      "name": "UEW6",
+      "title": "Air Circuit Breaker (ACB) UEW6",
+      "description": "ACB UEW6 cho tủ phân phối chính (1600–4000A).",
+      "category": "power-distribution",
+      "href": "https://www.hongfa.com/product/low-voltage/UEW6",
+      "image": "/images/hongfa/products/uew6-1600.jpg",
+      "models": [
+        "uew6-1600",
+        "uew6-2000",
+        "uew6-4000"
+      ]
+    },
+    {
+      "id": "uem5",
+      "slug": "uem5",
+      "name": "UEM5",
+      "title": "MCCB 3–4P UEM5",
+      "description": "MCCB UEM5 AC — khung 100…800A.",
+      "category": "power-distribution",
+      "href": "https://www.hongfa.com/product/low-voltage/UEM5",
+      "image": "/images/hongfa/products/uem5-100.jpg",
+      "models": [
+        "uem5-100",
+        "uem5-160",
+        "uem5-250",
+        "uem5-400",
+        "uem5-630",
+        "uem5-800"
+      ]
+    }
+  ]
+}

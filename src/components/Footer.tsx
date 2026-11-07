@@ -7,31 +7,35 @@ const footerLinks = {
   solutions: {
     title: "Giải pháp",
     links: [
-      "Cơ khí chế tạo",
-      "Tự động hoá công nghiệp",
-      "Số hoá nhà máy",
-      "AI & Phân tích dữ liệu",
-      "Năng lượng xanh",
+      { label: "Tiết kiệm năng lượng", href: "/solutions/energy" },
+      { label: "Điện mặt trời", href: "/solutions/solar" },
+      { label: "Hệ thống SCADA", href: "/solutions/scada" },
+      { label: "Camera AI", href: "/solutions/ai-camera" },
+      { label: "Tất cả giải pháp", href: "/solutions" },
     ],
   },
   products: {
     title: "Sản phẩm",
     links: [
-      "AGV – AMR – Robot",
-      "Thiết bị công nghiệp",
-      "Phần mềm SCADA",
-      "Jig & Đồ gá",
-      "Linh kiện công nghiệp",
+      {
+        label: "Hongfa – Đóng cắt & bảo vệ",
+        href: "/product",
+        newTab: true,
+      },
+      { label: "AGV – AMR – Robot", href: "/#products" },
+      { label: "Thiết bị công nghiệp", href: "/#products" },
+      { label: "Phần mềm SCADA", href: "/solutions/scada" },
+      { label: "Năng lượng xanh", href: "/solutions/solar" },
     ],
   },
   services: {
     title: "Dịch vụ",
     links: [
-      "Khảo sát & Tư vấn",
-      "Thiết kế & Lắp đặt",
-      "Bảo trì & Sửa chữa",
-      "Cải tiến & Nâng cấp",
-      "Đào tạo vận hành",
+      { label: "Khảo sát & Tư vấn", href: "/#contact" },
+      { label: "Thiết kế & Lắp đặt", href: "/#services" },
+      { label: "Bảo trì & Sửa chữa", href: "/#services" },
+      { label: "Cải tiến & Nâng cấp", href: "/#services" },
+      { label: "Đào tạo vận hành", href: "/#services" },
     ],
   },
 };
@@ -114,12 +118,15 @@ export default function Footer() {
               <h4 className="font-semibold text-white mb-4">{section.title}</h4>
               <ul className="space-y-2.5">
                 {section.links.map((link) => (
-                  <li key={link}>
+                  <li key={link.label}>
                     <a
-                      href="#"
+                      href={link.href}
+                      {...("newTab" in link && link.newTab
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
                       className="text-sm text-gray-400 hover:text-brand-cyan transition-colors duration-200"
                     >
-                      {link}
+                      {link.label}
                     </a>
                   </li>
                 ))}

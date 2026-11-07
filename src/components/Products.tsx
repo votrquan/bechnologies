@@ -3,7 +3,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
-import { Bot, HardDrive, Monitor, Puzzle, Package, Sun } from "lucide-react";
+import Link from "next/link";
+import { Bot, HardDrive, Monitor, Puzzle, Package, Sun, ArrowRight } from "lucide-react";
 import { siteImages } from "@/lib/site-images";
 
 const products = [
@@ -127,6 +128,18 @@ export default function Products() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="/product"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-brand-navy text-white font-semibold rounded-full hover:bg-brand-navy-hover transition-colors"
+          >
+            Xem danh mục Hongfa (đóng cắt &amp; bảo vệ)
+            <ArrowRight size={18} />
+          </Link>
         </div>
       </div>
     </section>
