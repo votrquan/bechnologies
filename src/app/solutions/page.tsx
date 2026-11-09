@@ -4,7 +4,7 @@ import { featuredSolutions } from "@/lib/solutions";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Giải pháp | Bechnologies",
+  title: "Giải pháp",
   description:
     "Khám phá các giải pháp tiết kiệm năng lượng, SCADA và Camera AI công thái học từ Bechnologies.",
 };

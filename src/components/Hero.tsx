@@ -121,7 +121,9 @@ export default function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <Logo variant="stacked" className="!h-16 mb-3 drop-shadow-lg" />
+                <div className="inline-flex rounded-xl bg-white/95 px-3 py-2 mb-3 shadow-lg">
+                  <Logo variant="stacked" className="!h-14 !w-auto" />
+                </div>
                 <p className="text-white/90 text-sm max-w-sm">
                   Tự động hóa, SCADA, MES và năng lượng xanh cho nhà máy hiện đại
                 </p>

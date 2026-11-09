@@ -6,7 +6,7 @@ import EnergySolution from "@/components/solutions/EnergySolution";
 const solution = getSolutionBySlug("energy")!;
 
 export const metadata: Metadata = {
-  title: `${solution.shortTitle} | Bechnologies`,
+  title: `${solution.shortTitle}`,
   description: solution.description,
 };
 

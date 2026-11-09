@@ -1,8 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
-import { productMenuColumns } from "@/lib/product-menu";
+import { ChevronDown, ChevronRight } from "lucide-react";
+import { productMenuCategories } from "@/lib/product-menu";
 
 type Props = {
   open: boolean;
@@ -11,11 +12,29 @@ type Props = {
   openCatalogInNewTab?: boolean;
 };
 
+function linkProps(
+  href: string,
+  external: boolean | undefined,
+  openCatalogInNewTab: boolean
+) {
+  const isProductLocal = href.startsWith("/product");
+  const openNew =
+    Boolean(external) || (isProductLocal && openCatalogInNewTab);
+  return openNew
+    ? { target: "_blank" as const, rel: "noopener noreferrer" }
+    : {};
+}
+
 export default function ProductsMegaMenu({
   open,
   onOpenChange,
   openCatalogInNewTab = false,
 }: Props) {
+  const [activeId, setActiveId] = useState(productMenuCategories[0]?.id ?? "");
+  const active =
+    productMenuCategories.find((c) => c.id === activeId) ??
+    productMenuCategories[0];
+
   return (
     <div
       className="relative"
@@ -40,75 +59,82 @@ export default function ProductsMegaMenu({
         />
       </button>
 
-      {/* Bridge hover gap */}
       <div className="absolute left-0 right-0 h-3 top-full" aria-hidden />
 
       <div
-        className={`absolute left-1/2 -translate-x-1/2 top-[calc(100%+0.35rem)] z-50 w-[min(92vw,56rem)] transition-all duration-200 ${
+        className={`absolute left-0 top-[calc(100%+0.35rem)] z-50 transition-all duration-200 ${
           open
             ? "opacity-100 visible translate-y-0"
             : "opacity-0 invisible -translate-y-1 pointer-events-none"
         }`}
       >
-        <div className="rounded-2xl border border-white/10 bg-brand-navy shadow-2xl shadow-black/30 overflow-hidden">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-0 divide-x divide-white/10">
-            {productMenuColumns.map((col) => (
-              <div key={col.title} className="p-5 lg:p-6 min-h-[14rem]">
-                <Link
-                  href={col.href}
-                  {...(col.href === "/product" && openCatalogInNewTab
-                    ? { target: "_blank", rel: "noopener noreferrer" }
-                    : {})}
-                  className="block text-sm font-bold text-brand-cyan uppercase tracking-wide mb-4 hover:brightness-110"
-                  onClick={() => onOpenChange(false)}
-                >
-                  {col.title}
-                </Link>
-                <ul className="space-y-2">
-                  {col.links.map((link) => (
-                    <li key={`${col.title}-${link.label}`}>
-                      <Link
-                        href={link.href}
-                        {...(link.href.startsWith("/product") &&
+        <div className="flex items-stretch rounded-xl border border-gray-200 bg-white shadow-2xl shadow-black/15 overflow-hidden min-w-[18rem]">
+          {/* Level 1 */}
+          <ul className="w-[17.5rem] py-1 max-h-[min(70vh,32rem)] overflow-y-auto">
+            {productMenuCategories.map((cat) => {
+              const isActive = cat.id === active?.id;
+              return (
+                <li key={cat.id}>
+                  <div
+                    className={`relative flex items-center border-b border-gray-100 last:border-b-0 ${
+                      isActive ? "bg-brand-cyan-soft/40" : "hover:bg-gray-50"
+                    }`}
+                    onMouseEnter={() => setActiveId(cat.id)}
+                  >
+                    {isActive && (
+                      <span
+                        className="absolute left-0 top-0 bottom-0 w-1 bg-brand-cyan"
+                        aria-hidden
+                      />
+                    )}
+                    <Link
+                      href={cat.href}
+                      {...linkProps(
+                        cat.href,
+                        cat.external,
                         openCatalogInNewTab
-                          ? { target: "_blank", rel: "noopener noreferrer" }
-                          : {})}
-                        className="block text-sm text-gray-300 hover:text-white transition-colors"
-                        onClick={() => onOpenChange(false)}
-                      >
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+                      )}
+                      className={`flex-1 px-4 py-2.5 text-sm font-semibold transition-colors ${
+                        isActive
+                          ? "text-brand-navy"
+                          : "text-brand-navy-mid/90"
+                      }`}
+                      onClick={() => onOpenChange(false)}
+                    >
+                      {cat.label}
+                    </Link>
+                    {cat.children.length > 0 && (
+                      <span className="pr-3 text-brand-cyan shrink-0">
+                        <ChevronRight size={14} />
+                      </span>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
 
-          <div className="px-5 py-3 border-t border-white/10 bg-brand-navy-deep/60 flex flex-wrap items-center justify-between gap-3">
-            <p className="text-xs text-gray-400">
-              Danh mục Bechnologies &amp; Hongfa Low Voltage
-            </p>
-            <div className="flex gap-4 text-xs font-semibold">
-              <Link
-                href="/#products"
-                className="text-gray-300 hover:text-brand-cyan"
-                onClick={() => onOpenChange(false)}
-              >
-                Sản phẩm Bechnologies
-              </Link>
-              <Link
-                href="/product"
-                {...(openCatalogInNewTab
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
-                className="text-brand-cyan hover:brightness-110"
-                onClick={() => onOpenChange(false)}
-              >
-                Catalog Hongfa →
-              </Link>
-            </div>
-          </div>
+          {/* Level 2 flyout */}
+          {active && active.children.length > 0 && (
+            <ul className="w-[17rem] border-l border-gray-100 py-1 bg-white max-h-[min(70vh,32rem)] overflow-y-auto">
+              {active.children.map((child) => (
+                <li key={`${active.id}-${child.label}`}>
+                  <Link
+                    href={child.href}
+                    {...linkProps(
+                      child.href,
+                      child.external,
+                      openCatalogInNewTab
+                    )}
+                    className="block px-4 py-2.5 text-sm text-gray-700 border-b border-gray-100 last:border-b-0 hover:bg-brand-cyan-soft/50 hover:text-brand-navy transition-colors"
+                    onClick={() => onOpenChange(false)}
+                  >
+                    {child.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </div>

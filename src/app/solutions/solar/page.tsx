@@ -6,7 +6,7 @@ import SolarSolution from "@/components/solutions/SolarSolution";
 const solution = getSolutionBySlug("solar")!;
 
 export const metadata: Metadata = {
-  title: `${solution.shortTitle} | Bechnologies`,
+  title: `${solution.shortTitle}`,
   description: solution.description,
 };
 

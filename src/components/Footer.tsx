@@ -73,8 +73,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           <div className="lg:col-span-2">
-            <div className="mb-6">
-              <Logo variant="horizontal-dark" />
+            <div className="mb-6 inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-3">
+              <Logo variant="mini" className="!h-11 !w-11" />
+              <div className="leading-none">
+                <span className="block text-base font-bold text-brand-navy tracking-[0.12em]">
+                  BECHNOLOGIES
+                </span>
+                <span className="block mt-1 text-[9px] text-gray-500 uppercase tracking-wide whitespace-nowrap">
+                  Better Technologies For A Better Future
+                </span>
+              </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
               Công ty TNHH Công Nghệ Bechnologies Việt Nam – Cung cấp thiết bị,

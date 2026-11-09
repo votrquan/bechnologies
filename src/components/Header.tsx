@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, Phone, Mail } from "lucide-react";
 import Logo from "@/components/Logo";
 import ProductsMegaMenu from "@/components/ProductsMegaMenu";
-import { productMenuColumns } from "@/lib/product-menu";
+import { productMenuCategories } from "@/lib/product-menu";
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
@@ -77,14 +77,15 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-3 shrink-0 py-1 -my-1 group"
+              aria-label="Bechnologies — Trang chủ"
             >
               <Logo variant="mini" priority />
               <div className="hidden sm:block leading-none">
                 <span className="block text-base lg:text-lg font-bold text-brand-navy tracking-[0.12em] group-hover:text-brand-navy-mid transition-colors">
                   BECHNOLOGIES
                 </span>
-                <span className="block mt-1 text-[10px] lg:text-[11px] text-gray-500 uppercase tracking-wider">
-                  Better Technologies
+                <span className="block mt-1 text-[9px] lg:text-[10px] text-gray-500 uppercase tracking-wide whitespace-nowrap">
+                  Better Technologies For A Better Future
                 </span>
               </div>
             </Link>
@@ -162,57 +163,59 @@ export default function Header() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            className="overflow-hidden bg-brand-navy text-white rounded-xl mx-1 mb-2"
+                            className="bg-white border border-gray-100 rounded-xl mx-1 mb-2 max-h-[60vh] overflow-y-auto"
                           >
-                            <div className="px-4 py-3 space-y-4">
-                              {productMenuColumns.map((col) => (
-                                <div key={col.title}>
-                                  <Link
-                                    href={col.href}
-                                    {...(col.href === "/product" &&
-                                    !onProductSection
-                                      ? {
-                                          target: "_blank",
-                                          rel: "noopener noreferrer",
-                                        }
-                                      : {})}
-                                    onClick={() => setMobileMenuOpen(false)}
-                                    className="block text-xs font-bold text-brand-cyan uppercase tracking-wide mb-2"
-                                  >
-                                    {col.title}
-                                  </Link>
-                                  <ul className="space-y-1.5 pl-1">
-                                    {col.links.map((link) => (
-                                      <li key={`${col.title}-${link.label}`}>
-                                        <Link
-                                          href={link.href}
-                                          {...(link.href.startsWith(
-                                            "/product"
-                                          ) && !onProductSection
-                                            ? {
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                              }
-                                            : {})}
-                                          onClick={() =>
-                                            setMobileMenuOpen(false)
+                            <div className="divide-y divide-gray-100">
+                              {productMenuCategories.map((cat) => {
+                                const openCat =
+                                  Boolean(cat.external) ||
+                                  (cat.href.startsWith("/product") &&
+                                    !onProductSection);
+                                return (
+                                  <div key={cat.id} className="py-2">
+                                    <Link
+                                      href={cat.href}
+                                      {...(openCat
+                                        ? {
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
                                           }
-                                          className="block text-sm text-gray-300 hover:text-white py-0.5"
-                                        >
-                                          {link.label}
-                                        </Link>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              ))}
-                              <Link
-                                href="/#products"
-                                onClick={() => setMobileMenuOpen(false)}
-                                className="block pt-2 border-t border-white/10 text-sm font-semibold text-white"
-                              >
-                                Sản phẩm Bechnologies
-                              </Link>
+                                        : {})}
+                                      onClick={() => setMobileMenuOpen(false)}
+                                      className="block px-4 py-1.5 text-sm font-semibold text-brand-navy"
+                                    >
+                                      {cat.label}
+                                    </Link>
+                                    <ul className="pl-2">
+                                      {cat.children.map((link) => {
+                                        const openChild =
+                                          Boolean(link.external) ||
+                                          (link.href.startsWith("/product") &&
+                                            !onProductSection);
+                                        return (
+                                          <li key={`${cat.id}-${link.label}`}>
+                                            <Link
+                                              href={link.href}
+                                              {...(openChild
+                                                ? {
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                  }
+                                                : {})}
+                                              onClick={() =>
+                                                setMobileMenuOpen(false)
+                                              }
+                                              className="block px-4 py-1.5 text-sm text-gray-600 hover:text-brand-navy"
+                                            >
+                                              {link.label}
+                                            </Link>
+                                          </li>
+                                        );
+                                      })}
+                                    </ul>
+                                  </div>
+                                );
+                              })}
                             </div>
                           </motion.div>
                         )}

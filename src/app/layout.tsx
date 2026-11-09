@@ -14,9 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bechnologies - Better Technologies For A Better Future",
+  title: {
+    default: "Bechnologies",
+    template: "%s | Bechnologies",
+  },
   description:
-    "Công ty TNHH Công Nghệ Bechnologies Việt Nam - Cung cấp thiết bị, phần mềm và phát triển giải pháp trong lĩnh vực cơ khí, tự động hóa công nghiệp, số hóa doanh nghiệp.",
+    "Công ty TNHH Công Nghệ Bechnologies Việt Nam - Cung cấp thiết bị, phần mềm và phát triển giải pháp trong lĩnh vực cơ khí, tự động hóa công nghiệp, số hóa doanh nghiệp. Better Technologies For A Better Future.",
   icons: {
     icon: "/images/logos/ben-logo-mini.png",
     apple: "/images/logos/ben-logo-mini.png",

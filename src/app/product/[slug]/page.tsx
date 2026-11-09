@@ -24,9 +24,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getHongfaProductBySlug(slug);
-  if (!product) return { title: "Sản phẩm | Bechnologies" };
+  if (!product) return { title: "Sản phẩm" };
   return {
-    title: `${product.model} | ${product.series} | Bechnologies`,
+    title: `${product.model} | ${product.series}`,
     description: product.shortDescription || product.description,
   };
 }

@@ -6,7 +6,7 @@ import AiCameraSolution from "@/components/solutions/AiCameraSolution";
 const solution = getSolutionBySlug("ai-camera")!;
 
 export const metadata: Metadata = {
-  title: `${solution.shortTitle} | Bechnologies`,
+  title: `${solution.shortTitle}`,
   description: solution.description,
 };
 

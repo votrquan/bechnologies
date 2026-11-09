@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import ProductCatalog from "@/components/products/ProductCatalog";
 import { productCategories } from "@/lib/products";
 import { ArrowRight, Globe2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Sản phẩm Hongfa | Bechnologies",
+  title: "Sản phẩm Hongfa",
   description:
     "Danh mục thiết bị đóng cắt và bảo vệ Hongfa: Control Gear, DIN-Rail Protection, Power Distribution.",
 };
@@ -53,15 +54,16 @@ export default function ProductPage() {
       <section className="py-10 border-b border-gray-100 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {categories.map((cat) => (
-            <div
+            <Link
               key={cat.id}
-              className="p-5 rounded-2xl bg-brand-surface border border-gray-100"
+              href={`/product?cat=${cat.id}#catalog`}
+              className="p-5 rounded-2xl bg-brand-surface border border-gray-100 hover:border-brand-navy/25 hover:shadow-md transition-all"
             >
               <h2 className="font-bold text-brand-navy mb-2">{cat.label}</h2>
               <p className="text-sm text-gray-600 leading-relaxed">
                 {cat.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -78,7 +80,13 @@ export default function ProductPage() {
             </p>
           </div>
 
-          <ProductCatalog />
+          <Suspense
+            fallback={
+              <p className="text-sm text-gray-500">Đang tải danh mục…</p>
+            }
+          >
+            <ProductCatalog />
+          </Suspense>
         </div>
       </section>
     </div>

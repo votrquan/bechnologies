@@ -3,13 +3,11 @@ import Image from "next/image";
 /**
  * Logo variants mapped to brand assets in /public/images/logos/
  *
- * | File            | Use case                          |
- * |-----------------|-----------------------------------|
- * | Bech-Final-05   | Cyan wordmark on white (header)   |
- * | Bech-Final-04   | Horizontal lockup on navy (footer)|
- * | Bech-Final-02   | Stacked lockup on navy            |
- * | Bech-Final-10   | Full vertical brand (hero, etc.)  |
- * | ben-logo-mini   | Header icon & favicon             |
+ * | File              | Use case                              |
+ * |-------------------|---------------------------------------|
+ * | bech-logo-lockup  | Full mark + wordmark + tagline        |
+ * | bech-logo-mark    | Hexagon B mark (hero watermark, etc.) |
+ * | ben-logo-mini     | Header icon & favicon                 |
  */
 export type LogoVariant =
   | "horizontal"
@@ -25,10 +23,10 @@ interface LogoProps {
 }
 
 const sources: Record<LogoVariant, string> = {
-  horizontal: "/images/logos/Bech-Final-05.jpg",
-  "horizontal-dark": "/images/logos/Bech-Final-04.jpg",
-  stacked: "/images/logos/Bech-Final-02.jpg",
-  icon: "/images/logos/Bech-Final-10.png",
+  horizontal: "/images/logos/bech-logo-lockup.png",
+  "horizontal-dark": "/images/logos/bech-logo-lockup.png",
+  stacked: "/images/logos/bech-logo-lockup.png",
+  icon: "/images/logos/bech-logo-mark.png",
   mini: "/images/logos/ben-logo-mini.png",
 };
 
@@ -37,18 +35,31 @@ const dimensions: Record<
   { width: number; height: number; className: string }
 > = {
   horizontal: {
-    width: 400,
-    height: 96,
-    className: "h-12 sm:h-14 lg:h-16 w-auto min-w-[11rem] sm:min-w-[13rem] lg:min-w-[15rem]",
+    width: 805,
+    height: 353,
+    className:
+      "h-12 sm:h-14 lg:h-[3.75rem] w-auto min-w-[9rem] sm:min-w-[10.5rem] lg:min-w-[12rem]",
   },
   "horizontal-dark": {
-    width: 320,
-    height: 80,
-    className: "h-12 sm:h-14 w-auto max-w-[280px]",
+    width: 805,
+    height: 353,
+    className: "h-14 sm:h-16 w-auto max-w-[240px]",
   },
-  stacked: { width: 200, height: 160, className: "h-28 sm:h-32 w-auto" },
-  icon: { width: 120, height: 120, className: "h-16 w-16 sm:h-20 sm:w-20" },
-  mini: { width: 80, height: 80, className: "h-11 w-11 sm:h-12 sm:w-12 lg:h-14 lg:w-14" },
+  stacked: {
+    width: 805,
+    height: 353,
+    className: "h-20 sm:h-24 w-auto",
+  },
+  icon: {
+    width: 217,
+    height: 217,
+    className: "h-16 w-16 sm:h-20 sm:w-20",
+  },
+  mini: {
+    width: 178,
+    height: 253,
+    className: "h-11 w-auto sm:h-12 lg:h-14",
+  },
 };
 
 export default function Logo({

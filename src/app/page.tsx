@@ -6,6 +6,7 @@ import Products from "@/components/Products";
 import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Applications from "@/components/Applications";
+import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Services />
         <Projects />
         <Applications />
+        <Partners />
         <Contact />
       </main>
       <Footer />

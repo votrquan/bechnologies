@@ -113,29 +113,6 @@ export default function Applications() {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.6, duration: 0.6 }}
-          className="mt-20 text-center"
-        >
-          <p className="text-gray-500 text-sm font-medium uppercase tracking-wider mb-8">
-            Được tin tưởng bởi các doanh nghiệp hàng đầu
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
-            {["SAMSUNG", "FORD", "THACO", "FOXCONN", "SCHAEFFLER"].map(
-              (brand) => (
-                <div
-                  key={brand}
-                  className="text-xl lg:text-2xl font-bold text-gray-400"
-                >
-                  {brand}
-                </div>
-              )
-            )}
-          </div>
-        </motion.div>
       </div>
     </section>
   );
