@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import {
   ArrowLeft,
   CheckCircle2,
-  ExternalLink,
   FileText,
   Zap,
 } from "lucide-react";
@@ -114,15 +113,6 @@ export default async function ProductDetailPage({ params }: Props) {
               >
                 Liên hệ tư vấn / báo giá
               </Link>
-              <a
-                href={product.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-brand-navy/20 text-brand-navy text-sm font-semibold hover:bg-brand-cyan-soft/60 transition-colors"
-              >
-                Nguồn Hongfa
-                <ExternalLink size={14} />
-              </a>
             </div>
 
             {product.docs.length > 0 && (

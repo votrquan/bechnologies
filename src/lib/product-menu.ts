@@ -1,292 +1,101 @@
 export type ProductMenuLink = {
   label: string;
   href: string;
-  /** Open in new tab (Hongfa.com or local catalog when preferred) */
-  external?: boolean;
 };
 
-export type ProductMenuCategory = {
+/** Cột thương hiệu trong mega menu Sản phẩm (kiểu brand columns) */
+export type ProductMenuBrand = {
   id: string;
   label: string;
   href: string;
-  external?: boolean;
-  children: ProductMenuLink[];
+  links: ProductMenuLink[];
 };
 
+/** Đường dẫn local cho danh mục chưa có trang chi tiết → 404 */
+function soon(slug: string) {
+  return `/product/c/${slug}`;
+}
+
 /**
- * Danh mục Sản phẩm theo cấu trúc Hongfa (flyout 2 cấp).
- * Thứ tự ưu tiên: Điện áp thấp → LV&MV → Rơ Le → Bộ ngắt chân không → …
- * Thiết bị điện áp thấp → catalog nội bộ /product; còn lại → hongfa.com.
+ * Mega menu Sản phẩm — 2 nhà phân phối: SKF & HongFa.
+ * HongFa: toàn bộ danh mục từ hongfa.com/vi/product → /product?brand=hongfa&cat=…
  */
-export const productMenuCategories: ProductMenuCategory[] = [
+export const productMenuBrands: ProductMenuBrand[] = [
   {
-    id: "low-voltage",
-    label: "Thiết Bị Điện Áp Thấp",
-    href: "/product",
-    children: [
+    id: "skf",
+    label: "SKF",
+    href: "/product?brand=skf",
+    links: [
+      { label: "Bearings", href: soon("skf-bearings") },
+      { label: "Mounted bearings & housings", href: soon("skf-mounted-bearings") },
+      { label: "Seals", href: soon("skf-seals") },
+      { label: "Lubrication systems", href: soon("skf-lubrication") },
+      { label: "Lubricants", href: soon("skf-lubricants") },
+      { label: "Maintenance products", href: soon("skf-maintenance") },
+      { label: "Power transmission", href: soon("skf-power-transmission") },
+      { label: "Condition monitoring", href: soon("skf-condition-monitoring") },
+      { label: "Test & measuring", href: soon("skf-test-measuring") },
+    ],
+  },
+  {
+    id: "hongfa",
+    label: "HONGFA",
+    href: "/product?brand=hongfa",
+    links: [
+      { label: "Rơ Le", href: "/product?brand=hongfa&cat=relays" },
       {
-        label: "Linh Kiện Phân Phối Điện",
-        href: "/product?cat=power-distribution",
-      },
-      {
-        label: "Thiết Bị Bảo Vệ Thanh Ray DIN",
-        href: "/product?cat=din-rail",
+        label: "Mô-Đun Điện Tử Ứng Dụng",
+        href: "/product?brand=hongfa&cat=electronic-module",
       },
       {
         label: "Thiết Bị Điều Khiển",
-        href: "/product?cat=control-gear",
-      },
-    ],
-  },
-  {
-    id: "lv-mv",
-    label: "LV&MV Devices",
-    href: "https://www.hongfa.com/product/category/mv-lv-switchgear-apparatus",
-    external: true,
-    children: [
-      {
-        label: "Thiết Bị Đóng Cắt Trung Thế",
-        href: "https://www.hongfa.com/product/list/mv-switchgear",
-        external: true,
+        href: "/product?brand=hongfa&cat=control-gear",
       },
       {
-        label: "Thiết Bị Đóng Cắt Hạ Thế",
-        href: "https://www.hongfa.com/product/list/lv-switchgear",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "relays",
-    label: "Rơ Le",
-    href: "https://www.hongfa.com/product/category/relays",
-    external: true,
-    children: [
-      {
-        label: "Rơ Le Công Suất",
-        href: "https://www.hongfa.com/Products/relays/power-relay",
-        external: true,
+        label: "Thiết Bị Bảo Vệ Thanh Ray DIN",
+        href: "/product?brand=hongfa&cat=din-rail",
       },
       {
-        label: "Rơ Le Ô Tô",
-        href: "https://www.hongfa.com/Products/relays/automotive-relay",
-        external: true,
+        label: "Linh Kiện Phân Phối Điện",
+        href: "/product?brand=hongfa&cat=power-distribution",
       },
       {
-        label: "High Voltage DC Relay",
-        href: "https://www.hongfa.com/Products/relays/dc-relay",
-        external: true,
+        label: "LV&MV Devices",
+        href: "/product?brand=hongfa&cat=mv-lv-devices",
+      },
+      { label: "Đầu Nối", href: "/product?brand=hongfa&cat=connectors" },
+      {
+        label: "Tụ Điện Màng",
+        href: "/product?brand=hongfa&cat=film-capacitors",
       },
       {
-        label: "Rơ-Le Chốt",
-        href: "https://www.hongfa.com/Products/relays/latching-relay",
-        external: true,
+        label: "Cảm Biến Dòng Điện",
+        href: "/product?brand=hongfa&cat=current-sensor",
+      },
+      { label: "Cầu Chì", href: "/product?brand=hongfa&cat=fuse" },
+      {
+        label: "Bộ Ngắt Chân Không",
+        href: "/product?brand=hongfa&cat=vacuum-interrupter",
       },
       {
-        label: "Rơ Le Tín Hiệu",
-        href: "https://www.hongfa.com/product-v2/relays/signal-relay",
-        external: true,
-      },
-      {
-        label: "Rơ Le Tần Số Cao",
-        href: "https://www.hongfa.com/product/list/high-frequency-relay",
-        external: true,
-      },
-      {
-        label: "Rơ-Le Lưỡi Gà",
-        href: "https://www.hongfa.com/product/list/reed-relay",
-        external: true,
-      },
-      {
-        label: "Rơ Le Công Nghiệp",
-        href: "https://www.hongfa.com/Products/relays/industrial-relay",
-        external: true,
-      },
-      {
-        label: "Rơ-Le Bán Dẫn",
-        href: "https://www.hongfa.com/product/list/solid-state-relay",
-        external: true,
-      },
-      {
-        label: "Ổ Cắm Rơ Le",
-        href: "https://www.hongfa.com/product/list/relay-socket",
-        external: true,
-      },
-      {
-        label: "Relay Module",
-        href: "https://www.hongfa.com/product/list/relay-module",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "vacuum-interrupters",
-    label: "Bộ Ngắt Chân Không",
-    href: "https://www.hongfa.com/product/category/vacuum-interrupter",
-    external: true,
-    children: [
-      {
-        label: "VI Cho Máy Cắt",
-        href: "https://www.hongfa.com/product/list/vacuum-interrupters-for-circuit-breaker",
-        external: true,
-      },
-      {
-        label: "VI Cho Công Tắc Tải",
-        href: "https://www.hongfa.com/product/list/vacuum-interrupter-for-load-switch",
-        external: true,
-      },
-      {
-        label: "VI Cho Công Tắc Tơ",
-        href: "https://www.hongfa.com/product/list/vacuum-interrupter-for-contactor",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "electronic-module",
-    label: "Mô-Đun Điện Tử Ứng Dụng",
-    href: "https://www.hongfa.com/product/category/electronic_module",
-    external: true,
-    children: [
-      {
-        label: "Mô-Đun Rơ-Le An Toàn",
-        href: "https://www.hongfa.com/product/list/safe-relay-module",
-        external: true,
-      },
-      {
-        label: "Mô-Đun Rơ-Le Khởi Động Động Cơ",
-        href: "https://www.hongfa.com/product/list/motor-start-relay-module",
-        external: true,
-      },
-      {
-        label: "Switching Power Supply Module",
-        href: "https://www.hongfa.com/product/list/switching-power-supply-module",
-        external: true,
-      },
-      {
-        label: "Interface Module",
-        href: "https://www.hongfa.com/product/list/Interface-module",
-        external: true,
-      },
-      {
-        label: "Mô-Đun Rơ-Le Điện Từ",
-        href: "https://www.hongfa.com/product/list/electromagnetic-relay-module",
-        external: true,
-      },
-      {
-        label: "Mô-Đun Rơ-Le Thời Gian",
-        href: "https://www.hongfa.com/product/list/time-relay-module",
-        external: true,
-      },
-      {
-        label: "Mô-Đun Rơ-Le Giám Sát",
-        href: "https://www.hongfa.com/product/list/monitor-relay-module",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "connectors",
-    label: "Đầu Nối",
-    href: "https://www.hongfa.com/product/category/connectors",
-    external: true,
-    children: [
-      {
-        label: "RF Connector",
-        href: "https://www.hongfa.com/product/list/rf-connector",
-        external: true,
-      },
-      {
-        label: "Rectangular Power Connector",
-        href: "https://www.hongfa.com/product/list/power-connector",
-        external: true,
-      },
-      {
-        label: "Circular Power Connector",
-        href: "https://www.hongfa.com/product/list/circular-power-connector",
-        external: true,
-      },
-      {
-        label: "Printed Circuit Board Connector",
-        href: "https://www.hongfa.com/product/list/printed-circuit-board-connector",
-        external: true,
-      },
-      {
-        label: "Industrial Connector",
-        href: "https://www.hongfa.com/product/list/industrial-connector",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "film-capacitors",
-    label: "Tụ Điện Màng",
-    href: "https://www.hongfa.com/product/category/film-capacitors",
-    external: true,
-    children: [
-      {
-        label: "EMI (Interference Suppression) Capacitor",
-        href: "https://www.hongfa.com/product/list/emi-capacitor",
-        external: true,
-      },
-      {
-        label: "Motor Run Capacitor",
-        href: "https://www.hongfa.com/product/list/motor-run-capacitor",
-        external: true,
-      },
-      {
-        label: "Tụ Điện Tử Công Suất",
-        href: "https://www.hongfa.com/product/list/power-electronic-capacitor",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "current-sensor",
-    label: "Cảm Biến Dòng Điện",
-    href: "https://www.hongfa.com/product/category/current-sensor",
-    external: true,
-    children: [
-      {
-        label: "Biến Dòng",
-        href: "https://www.hongfa.com/product/list/current-transformer",
-        external: true,
-      },
-      {
-        label: "Cuộn Dây Rogowski",
-        href: "https://www.hongfa.com/product/list/rogowski-coils",
-        external: true,
-      },
-      {
-        label: "Cảm Biến Hall",
-        href: "https://www.hongfa.com/product/list/hall-sensor",
-        external: true,
-      },
-      {
-        label: "Cổng Từ Thông",
-        href: "https://www.hongfa.com/product/list/fluxgate",
-        external: true,
-      },
-    ],
-  },
-  {
-    id: "fuse",
-    label: "Cầu Chì",
-    href: "https://www.hongfa.com/product/category/fuse",
-    external: true,
-    children: [
-      {
-        label: "Cầu Chì Điện",
-        href: "https://www.hongfa.com/product/list/electrical-fuse",
-        external: true,
+        label: "Thiết Bị Tự Động Hóa",
+        href: "/product?brand=hongfa&cat=automation",
       },
     ],
   },
 ];
 
-/** @deprecated dùng productMenuCategories */
-export const productMenuColumns = productMenuCategories.map((cat) => ({
-  title: cat.label,
-  href: cat.href,
-  links: cat.children,
+/** @deprecated tương thích Header mobile cũ */
+export const productMenuCategories = productMenuBrands.map((brand) => ({
+  id: brand.id,
+  label: brand.label,
+  href: brand.href,
+  children: brand.links,
+}));
+
+/** @deprecated */
+export const productMenuColumns = productMenuBrands.map((brand) => ({
+  title: brand.label,
+  href: brand.href,
+  links: brand.links,
 }));

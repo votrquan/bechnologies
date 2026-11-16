@@ -1,23 +1,6 @@
-import type { Metadata } from "next";
-import { getSolutionBySlug } from "@/lib/solutions";
-import SolutionPageShell from "@/components/solutions/SolutionPageShell";
-import SolarSolution from "@/components/solutions/SolarSolution";
+import { notFound } from "next/navigation";
 
-const solution = getSolutionBySlug("solar")!;
-
-export const metadata: Metadata = {
-  title: `${solution.shortTitle}`,
-  description: solution.description,
-};
-
+/** Điện mặt trời NLMT — tạm ẩn, trả 404 */
 export default function SolarSolutionPage() {
-  return (
-    <SolutionPageShell
-      title={solution.title}
-      description={solution.description}
-      tag={solution.tag}
-    >
-      <SolarSolution />
-    </SolutionPageShell>
-  );
+  notFound();
 }

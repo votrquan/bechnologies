@@ -9,6 +9,15 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: projectRoot,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "source.hongfa.com",
+        pathname: "/**",
+      },
+    ],
+  },
   webpack: (config, { dev }) => {
     if (dev) {
       config.watchOptions = {

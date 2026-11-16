@@ -8,7 +8,6 @@ const footerLinks = {
     title: "Giải pháp",
     links: [
       { label: "Tiết kiệm năng lượng", href: "/solutions/energy" },
-      { label: "Điện mặt trời", href: "/solutions/solar" },
       { label: "Hệ thống SCADA", href: "/solutions/scada" },
       { label: "Camera AI", href: "/solutions/ai-camera" },
       { label: "Tất cả giải pháp", href: "/solutions" },
@@ -25,7 +24,7 @@ const footerLinks = {
       { label: "AGV – AMR – Robot", href: "/#products" },
       { label: "Thiết bị công nghiệp", href: "/#products" },
       { label: "Phần mềm SCADA", href: "/solutions/scada" },
-      { label: "Năng lượng xanh", href: "/solutions/solar" },
+      { label: "Năng lượng xanh", href: "/#products" },
     ],
   },
   services: {

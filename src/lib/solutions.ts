@@ -2,9 +2,9 @@ import {
   BatteryCharging,
   Monitor,
   BrainCircuit,
-  Sun,
   type LucideIcon,
 } from "lucide-react";
+import { siteImages } from "@/lib/site-images";
 
 export type SolutionPage = {
   slug: string;
@@ -15,6 +15,8 @@ export type SolutionPage = {
   color: string;
   href: string;
   tag?: string;
+  image: string;
+  features: string[];
 };
 
 export const featuredSolutions: SolutionPage[] = [
@@ -28,17 +30,8 @@ export const featuredSolutions: SolutionPage[] = [
     color: "from-green-500 to-green-700",
     href: "/solutions/energy",
     tag: "Năng lượng",
-  },
-  {
-    slug: "solar",
-    title: "Phương án thiết kế dự án điện năng lượng mặt trời",
-    shortTitle: "Điện mặt trời NLMT",
-    description:
-      "Báo cáo thiết kế hệ thống điện mặt trời hòa lưới bám tải — từ khảo sát tiêu thụ, lựa chọn công suất đến mặt bằng lắp đặt và sơ đồ đấu nối.",
-    icon: Sun,
-    color: "from-amber-500 to-orange-600",
-    href: "/solutions/solar",
-    tag: "Năng lượng tái tạo",
+    image: siteImages.energy.dashboard,
+    features: ["Giám sát điện", "Khí nén", "HVAC"],
   },
   {
     slug: "scada",
@@ -50,6 +43,8 @@ export const featuredSolutions: SolutionPage[] = [
     color: "from-brand-navy to-brand-navy-mid",
     href: "/solutions/scada",
     tag: "Tự động hóa",
+    image: siteImages.scada.controlRoom,
+    features: ["Giám sát realtime", "Điều khiển", "Báo cáo"],
   },
   {
     slug: "ai-camera",
@@ -61,6 +56,8 @@ export const featuredSolutions: SolutionPage[] = [
     color: "from-orange-500 to-red-600",
     href: "/solutions/ai-camera",
     tag: "AI & Phân tích",
+    image: siteImages.products.scada,
+    features: ["REBA", "An toàn lao động", "Dashboard"],
   },
 ];
 

@@ -167,15 +167,15 @@ export default function Header() {
                           >
                             <div className="divide-y divide-gray-100">
                               {productMenuCategories.map((cat) => {
-                                const openCat =
-                                  Boolean(cat.external) ||
-                                  (cat.href.startsWith("/product") &&
-                                    !onProductSection);
+                                const openCatalog =
+                                  (cat.href === "/product" ||
+                                    cat.href.startsWith("/product?")) &&
+                                  !onProductSection;
                                 return (
                                   <div key={cat.id} className="py-2">
                                     <Link
                                       href={cat.href}
-                                      {...(openCat
+                                      {...(openCatalog
                                         ? {
                                             target: "_blank",
                                             rel: "noopener noreferrer",
@@ -188,15 +188,16 @@ export default function Header() {
                                     </Link>
                                     <ul className="pl-2">
                                       {cat.children.map((link) => {
-                                        const openChild =
-                                          Boolean(link.external) ||
-                                          (link.href.startsWith("/product") &&
-                                            !onProductSection);
+                                        const openChildCatalog =
+                                          (link.href === "/product" ||
+                                            link.href.startsWith(
+                                              "/product?"
+                                            )) && !onProductSection;
                                         return (
                                           <li key={`${cat.id}-${link.label}`}>
                                             <Link
                                               href={link.href}
-                                              {...(openChild
+                                              {...(openChildCatalog
                                                 ? {
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",

@@ -5,7 +5,6 @@ import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { siteImages } from "@/lib/site-images";
 
 const partners = [
   {
@@ -14,13 +13,30 @@ const partners = [
     logo: "/images/hongfa/hongfa-logo.png",
     logoWidth: 140,
     logoHeight: 33,
-    image: siteImages.products.equipment,
+    logoIsSvg: false,
+    image: "/images/hongfa/catalog-p16.jpg",
     category: "LOW VOLTAGE",
     title: "Thiết bị đóng cắt & bảo vệ",
     description:
       "Giải pháp Hongfa Low Voltage — contactor, MCB/Smart MCB, MCCB, ACB và thiết bị bảo vệ cho tủ điện công nghiệp, dân dụng và năng lượng mới.",
     tags: ["Contactor", "MCB", "MCCB", "ACB", "Relay"],
-    href: "/product",
+    href: "/product?brand=hongfa#catalog",
+    newTab: true,
+  },
+  {
+    id: "skf",
+    brand: "SKF",
+    logo: "/images/skf/skf-logo.svg",
+    logoWidth: 86,
+    logoHeight: 32,
+    logoIsSvg: true,
+    image: "/images/skf/skf-hero.jpg",
+    category: "ROTATING EQUIPMENT",
+    title: "Vòng bi, phớt & bôi trơn",
+    description:
+      "Sản phẩm SKF — vòng bi, phớt chặn dầu, hệ thống bôi trơn và thiết bị liên quan giúp cải thiện độ tin cậy và hiệu năng. Bất cứ nơi nào có chuyển động quay đều có thể xuất hiện giải pháp SKF.",
+    tags: ["Vòng bi", "Phớt", "Bôi trơn", "Bảo trì", "Giám sát"],
+    href: "/product?brand=skf#catalog",
     newTab: true,
   },
 ];
@@ -45,12 +61,12 @@ export default function Partners() {
             Đối tác &amp; Nhà cung cấp
           </h2>
           <p className="text-gray-600 max-w-2xl">
-            Bechnologies đồng hành cùng các thương hiệu thiết bị điện công nghiệp
-            hàng đầu — tư vấn, cung ứng và hỗ trợ kỹ thuật tại Việt Nam.
+            Bechnologies đồng hành cùng các thương hiệu công nghiệp hàng đầu —
+            Hongfa và SKF — tư vấn, cung ứng và hỗ trợ kỹ thuật tại Việt Nam.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl">
           {partners.map((partner, i) => (
             <motion.article
               key={partner.id}
@@ -64,19 +80,30 @@ export default function Partners() {
                   src={partner.image}
                   alt={partner.title}
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/55 via-transparent to-black/10" />
 
                 <div className="absolute top-4 left-4 bg-white rounded-lg px-3 py-2 shadow-md">
-                  <Image
-                    src={partner.logo}
-                    alt={partner.brand}
-                    width={partner.logoWidth}
-                    height={partner.logoHeight}
-                    className="h-6 w-auto object-contain"
-                  />
+                  {partner.logoIsSvg ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={partner.logo}
+                      alt={partner.brand}
+                      width={partner.logoWidth}
+                      height={partner.logoHeight}
+                      className="h-6 w-auto object-contain"
+                    />
+                  ) : (
+                    <Image
+                      src={partner.logo}
+                      alt={partner.brand}
+                      width={partner.logoWidth}
+                      height={partner.logoHeight}
+                      className="h-6 w-auto object-contain"
+                    />
+                  )}
                 </div>
 
                 <span className="absolute bottom-4 left-4 px-3 py-1 rounded-full bg-brand-navy text-white text-[11px] font-bold tracking-wide uppercase">
@@ -110,7 +137,7 @@ export default function Partners() {
                     : {})}
                   className="mt-auto inline-flex items-center justify-center gap-2 w-full px-5 py-3.5 rounded-xl bg-brand-navy text-white text-sm font-semibold hover:bg-brand-navy-hover transition-colors"
                 >
-                  Khám phá giải pháp
+                  Danh sách sản phẩm
                   <ArrowRight size={16} className="text-brand-cyan" />
                 </Link>
               </div>
